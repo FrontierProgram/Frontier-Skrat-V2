@@ -4107,10 +4107,6 @@
 	icon_state = "darkfull"
 	},
 /area/centcom/holding/cafepark)
-"kT" = (
-/obj/effect/turf_decal/trimline/blue/line,
-/turf/open/floor/iron/dark,
-/area/cruiser_dock/medical)
 "kU" = (
 /obj/machinery/vending/games,
 /turf/open/floor/plating,
@@ -6249,10 +6245,6 @@
 	},
 /turf/open/floor/plating,
 /area/cruiser_dock/service)
-"qu" = (
-/obj/machinery/dna_scannernew,
-/turf/open/floor/iron/dark,
-/area/cruiser_dock/medical)
 "qv" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 4
@@ -8986,12 +8978,6 @@
 "xA" = (
 /turf/closed/indestructible/wood,
 /area/centcom/holding/cafedorms)
-"xB" = (
-/obj/machinery/computer/cloning{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/cruiser_dock/medical)
 "xC" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade{
@@ -10623,7 +10609,6 @@
 /turf/open/floor/iron/dark,
 /area/cruiser_dock/research)
 "BV" = (
-/obj/effect/turf_decal/trimline/blue/line,
 /obj/machinery/light/cold{
 	dir = 4
 	},
@@ -13092,7 +13077,7 @@
 /turf/open/floor/plating/grass/planet,
 /area/centcom/holding/cafepark)
 "IW" = (
-/obj/structure/bookcase/manuals/medical,
+/obj/structure/bookcase/manuals,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding/cafepark)
 "IX" = (
@@ -15047,7 +15032,7 @@
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding/cafe)
 "Ox" = (
-/obj/structure/bookcase/manuals/medical,
+/obj/structure/bookcase/manuals,
 /turf/open/floor/wood,
 /area/cruiser_dock/brig)
 "Oy" = (
@@ -18328,8 +18313,7 @@
 /turf/open/floor/carpet/royalblack,
 /area/cruiser_dock/commons)
 "Xi" = (
-/obj/machinery/clonepod,
-/obj/effect/turf_decal/bot_white,
+/obj/effect/turf_decal/trimline/blue/line,
 /turf/open/floor/iron/dark,
 /area/cruiser_dock/medical)
 "Xj" = (
@@ -39125,8 +39109,8 @@ eK
 tL
 tL
 tL
-kT
-qu
+tL
+Xi
 xm
 Eh
 YB
@@ -39382,8 +39366,8 @@ fL
 XP
 XP
 jc
-kT
-xB
+tL
+Xi
 xm
 QG
 YN

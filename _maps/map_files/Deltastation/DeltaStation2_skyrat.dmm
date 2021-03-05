@@ -68514,30 +68514,28 @@
 /turf/open/floor/iron/white,
 /area/medical/medbay/central)
 "cSP" = (
-/obj/machinery/clonepod,
+/obj/machinery/stasis{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/treatment_center)
 "cSQ" = (
-/obj/structure/cable,
 /obj/item/radio/intercom{
 	pixel_y = 26
 	},
-/obj/machinery/computer/cloning,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/treatment_center)
 "cSR" = (
-/obj/machinery/power/apc/auto_name/north,
-/obj/structure/cable,
-/obj/machinery/dna_scannernew,
 /obj/machinery/airalarm{
 	pixel_x = 32;
 	pixel_y = 23
 	},
+/obj/machinery/stasis,
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/treatment_center)
 "cSS" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -71157,15 +71155,12 @@
 	},
 /turf/open/floor/iron,
 /area/medical/medbay/central)
-"cXW" = (
-/turf/closed/wall,
-/area/medical/genetics/cloning)
 "cXX" = (
 /obj/structure/sign/departments/medbay/alt{
 	pixel_x = 32
 	},
 /turf/closed/wall,
-/area/medical/genetics/cloning)
+/area/medical/treatment_center)
 "cXY" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/medical/glass{
@@ -71906,7 +71901,6 @@
 /turf/open/floor/iron,
 /area/medical/treatment_center)
 "cZG" = (
-/obj/structure/cable,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
 	},
@@ -72864,35 +72858,8 @@
 /turf/open/floor/iron/white,
 /area/medical/treatment_center)
 "dbu" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/closet,
-/obj/item/storage/backpack,
-/obj/item/storage/backpack,
-/obj/item/storage/backpack,
-/obj/item/storage/backpack/satchel/leather,
-/obj/item/storage/backpack/satchel/leather,
-/obj/item/storage/backpack/satchel/leather,
-/obj/item/storage/backpack/satchel,
-/obj/item/storage/backpack/satchel,
-/obj/item/storage/backpack/satchel,
-/obj/item/clothing/under/color/black,
-/obj/item/clothing/under/color/black,
-/obj/item/clothing/under/color/black,
-/obj/item/clothing/under/color/black,
-/obj/item/clothing/under/color/brown,
-/obj/item/clothing/under/color/brown,
-/obj/item/clothing/under/color/maroon,
-/obj/item/clothing/under/color/maroon,
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -26
-	},
-/obj/machinery/light_switch{
-	pixel_x = -8;
-	pixel_y = -24
-	},
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/treatment_center)
 "dbv" = (
 /obj/structure/chair/stool,
 /obj/machinery/light{
@@ -73841,7 +73808,6 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 26
 	},
-/obj/machinery/stasis,
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
@@ -73852,6 +73818,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+/obj/structure/table/optable,
 /turf/open/floor/iron/white,
 /area/medical/treatment_center)
 "ddh" = (
@@ -99909,7 +99876,6 @@
 /turf/open/floor/iron,
 /area/engineering/main)
 "gvO" = (
-/obj/structure/cable,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
 	},
@@ -100739,7 +100705,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/treatment_center)
 "hFQ" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security/glass{
@@ -102527,7 +102493,6 @@
 /turf/open/floor/iron/white,
 /area/medical/psychology)
 "jZH" = (
-/obj/structure/cable,
 /obj/machinery/holopad,
 /obj/machinery/button/door{
 	id = "cloningshutters";
@@ -102537,7 +102502,7 @@
 	req_one_access_txt = "68;5"
 	},
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/treatment_center)
 "kam" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/conveyor{
@@ -104047,7 +104012,6 @@
 /turf/closed/wall/r_wall,
 /area/engineering/atmos)
 "mbO" = (
-/obj/structure/cable,
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 8
 	},
@@ -105250,13 +105214,12 @@
 /area/hallway/primary/aft)
 "nQW" = (
 /obj/effect/landmark/start/paramedic,
-/obj/structure/cable,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/blue/filled/warning,
 /turf/open/floor/iron/white,
-/area/medical/genetics/cloning)
+/area/medical/treatment_center)
 "nRH" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /turf/open/floor/plating,
@@ -106581,7 +106544,7 @@
 	},
 /obj/effect/turf_decal/trimline/blue/filled/warning,
 /turf/open/floor/iron/white,
-/area/medical/genetics/cloning)
+/area/medical/treatment_center)
 "pGM" = (
 /obj/structure/window{
 	dir = 8
@@ -107336,7 +107299,6 @@
 /turf/open/floor/iron/dark,
 /area/security/brig)
 "qFL" = (
-/obj/structure/cable,
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 1
 	},
@@ -109700,7 +109662,6 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/security/armory)
 "ugX" = (
-/obj/structure/cable,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/medical/glass{
 	name = "Cloning Laboratory";
@@ -109710,7 +109671,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/treatment_center)
 "uhK" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -112413,7 +112374,6 @@
 /turf/open/floor/iron/white,
 /area/medical/surgery/room_b)
 "xAi" = (
-/obj/machinery/stasis,
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -112421,6 +112381,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+/obj/structure/table/optable,
 /turf/open/floor/iron/white,
 /area/medical/treatment_center)
 "xAz" = (
@@ -158428,11 +158389,11 @@ cKL
 dAh
 cNI
 cHW
-cXW
+vTA
 cSP
 pFX
 hFL
-cXW
+vTA
 cZF
 dbq
 xAi
@@ -158685,7 +158646,7 @@ cKM
 dAh
 cNJ
 cHW
-cXW
+vTA
 cSQ
 nQW
 jZH
@@ -158942,7 +158903,7 @@ cZX
 cIW
 cHW
 dJp
-cXW
+vTA
 cSR
 pFX
 dbu

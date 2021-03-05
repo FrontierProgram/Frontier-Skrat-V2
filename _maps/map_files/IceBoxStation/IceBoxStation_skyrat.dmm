@@ -11705,14 +11705,9 @@
 /turf/open/floor/wood,
 /area/service/library)
 "aPe" = (
-/obj/effect/spawner/structure/window,
-/obj/structure/cable,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "cloningshutters";
-	name = "privacy shutters"
-	},
-/turf/open/floor/plating,
-/area/medical/genetics/cloning)
+/obj/machinery/smartfridge/organ,
+/turf/closed/wall,
+/area/medical/surgery/room_b)
 "aPf" = (
 /obj/machinery/computer/libraryconsole,
 /obj/structure/table/wood,
@@ -21830,14 +21825,25 @@
 /turf/closed/wall,
 /area/space)
 "bqZ" = (
-/obj/machinery/airalarm{
-	pixel_y = 24
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
 	},
-/obj/machinery/power/apc/auto_name/east,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/medical2,
+/obj/machinery/power/apc/auto_name/north,
 /obj/structure/cable,
-/obj/machinery/dna_scannernew,
-/turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/obj/machinery/vending/wallmed{
+	pixel_x = 32
+	},
+/obj/item/clothing/mask/breath/medical,
+/obj/item/clothing/mask/breath/medical,
+/obj/item/tank/internals/anesthetic,
+/obj/item/tank/internals/anesthetic,
+/turf/open/floor/iron/white,
+/area/medical/surgery/room_b)
 "brc" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
@@ -21858,26 +21864,27 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/obj/machinery/shower{
-	dir = 4
-	},
+/obj/structure/table/glass,
+/obj/item/reagent_containers/medigel/sterilizine,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/white,
-/area/medical/genetics/cloning)
+/area/medical/surgery/room_b)
 "brh" = (
+/obj/effect/landmark/start/medical_doctor,
 /obj/structure/cable,
 /turf/open/floor/iron/white,
-/area/medical/genetics/cloning)
+/area/medical/surgery/room_b)
 "bri" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue,
-/obj/machinery/vending/wallmed{
-	pixel_x = 32
+/obj/item/radio/intercom{
+	pixel_x = 26
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/white,
-/area/medical/genetics/cloning)
+/area/medical/surgery/room_b)
 "brk" = (
 /obj/machinery/light{
 	dir = 1
@@ -21985,11 +21992,24 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/blue,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
+/obj/machinery/iv_drip,
+/obj/machinery/camera{
+	c_tag = "Surgery B";
+	dir = 1;
+	network = list("ss13","medbay");
+	pixel_x = 22
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/button/door{
+	id = "surgery";
+	name = "Surgery Shutter Control";
+	pixel_x = -24;
+	pixel_y = -24
 	},
 /turf/open/floor/iron/white,
-/area/medical/genetics/cloning)
+/area/medical/surgery/room_b)
 "brx" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -22037,13 +22057,13 @@
 /obj/effect/turf_decal/tile/blue,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 6
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
 /turf/open/floor/iron/white,
-/area/medical/genetics/cloning)
+/area/medical/surgery/room_b)
 "brB" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -22052,26 +22072,11 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/blue,
-/obj/item/radio/intercom{
-	pixel_x = 29
-	},
-/obj/machinery/camera{
-	c_tag = "Surgery B";
-	dir = 1;
-	network = list("ss13","medbay")
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/obj/machinery/button/door{
-	id = "cloningshutters";
-	name = "shutter Control";
-	pixel_x = 24;
-	pixel_y = -24;
-	req_one_access_txt = "68;5"
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
 	},
 /turf/open/floor/iron/white,
-/area/medical/genetics/cloning)
+/area/medical/surgery/room_b)
 "brC" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -43552,9 +43557,26 @@
 /turf/open/floor/iron/dark,
 /area/commons/storage/mining)
 "hcB" = (
-/obj/machinery/clonepod,
-/turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/machinery/airalarm{
+	pixel_y = 24
+	},
+/obj/structure/table/glass,
+/obj/machinery/computer/operating{
+	icon_keyboard = "laptop_key";
+	icon_screen = "medlaptop";
+	icon_state = "laptop"
+	},
+/turf/open/floor/iron/white,
+/area/medical/surgery/room_b)
 "hdx" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
@@ -48576,10 +48598,10 @@
 	req_access_txt = "5"
 	},
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
-/area/medical/genetics/cloning)
+/area/medical/surgery/room_b)
 "mIJ" = (
 /obj/machinery/computer/secure_data,
 /turf/open/floor/iron/dark,
@@ -54714,7 +54736,7 @@
 /area/security/prison)
 "tnw" = (
 /turf/closed/wall,
-/area/medical/genetics/cloning)
+/area/medical/surgery/room_b)
 "tqd" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -55594,7 +55616,6 @@
 /turf/open/floor/iron,
 /area/science/misc_lab)
 "ulw" = (
-/obj/structure/bookcase/manuals/medical,
 /turf/open/floor/wood,
 /area/security/prison)
 "ulQ" = (
@@ -57692,16 +57713,22 @@
 /turf/open/floor/iron/white,
 /area/medical/pharmacy)
 "wFc" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/table/optable,
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/machinery/newscaster{
 	pixel_y = 32
 	},
-/obj/machinery/computer/cloning,
 /obj/structure/cable,
-/turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/turf/open/floor/iron/white,
+/area/medical/surgery/room_b)
 "wFd" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -100654,7 +100681,7 @@ tnw
 bqZ
 bri
 brB
-aPe
+tnw
 bux
 bsI
 bsM

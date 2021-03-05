@@ -14568,7 +14568,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aAa" = (
 /obj/machinery/vending/engivend,
 /obj/effect/turf_decal/tile/neutral{
@@ -15047,7 +15047,7 @@
 	dir = 9
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aAL" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -15092,7 +15092,7 @@
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aAP" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -15511,7 +15511,7 @@
 	},
 /obj/structure/closet/wardrobe/pjs,
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aBB" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/beebox,
@@ -16173,7 +16173,7 @@
 	req_access_txt = "5"
 	},
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aCJ" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/blood/old,
@@ -17558,7 +17558,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aFu" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/medical/glass{
@@ -17589,7 +17589,7 @@
 	dir = 9
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aFz" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
@@ -20181,7 +20181,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aJV" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
@@ -21860,7 +21860,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aMF" = (
 /obj/machinery/button/ignition{
 	id = "Incinerator";
@@ -22416,7 +22416,7 @@
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/wardrobe/pjs,
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aNw" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -22534,7 +22534,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aNK" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -23089,7 +23089,7 @@
 	dir = 6
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aOC" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -23140,7 +23140,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/iron/showroomfloor,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aOH" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -23160,7 +23160,7 @@
 	},
 /obj/effect/turf_decal/box,
 /turf/open/floor/iron/showroomfloor,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aOI" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -23173,7 +23173,7 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/showroomfloor,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aOJ" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{
@@ -23193,18 +23193,6 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/science/mixing/chamber)
-"aOK" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/turf/open/floor/iron/showroomfloor,
-/area/medical/genetics/cloning)
 "aOM" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -23501,7 +23489,7 @@
 	dir = 6
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aPe" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -23621,7 +23609,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aPo" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -23671,7 +23659,7 @@
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aPs" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/neutral,
@@ -23889,7 +23877,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/showroomfloor,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aPH" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -24007,7 +23995,7 @@
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/showroomfloor,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aPP" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -24159,7 +24147,7 @@
 	req_access_txt = "50"
 	},
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aPY" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -27983,7 +27971,7 @@
 	},
 /obj/structure/closet/secure_closet/personal/patient,
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aVL" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -28113,11 +28101,11 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aVU" = (
 /obj/structure/sign/departments/medbay/alt,
 /turf/closed/wall,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aVV" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -28403,7 +28391,7 @@
 /obj/machinery/vending/clothing,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "aWp" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/medical/glass{
@@ -84379,7 +84367,7 @@
 /area/maintenance/port/aft)
 "hVJ" = (
 /turf/closed/wall/rust,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "hVK" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -84631,10 +84619,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/port)
-"ixx" = (
-/obj/machinery/status_display/evac,
-/turf/closed/wall,
-/area/medical/genetics/cloning)
 "ixL" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -85491,7 +85475,7 @@
 "lfp" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "ljv" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -85537,9 +85521,6 @@
 	},
 /turf/open/floor/plastic,
 /area/security/prison)
-"lrG" = (
-/turf/closed/wall,
-/area/medical/genetics/cloning)
 "lsk" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -87253,7 +87234,7 @@
 /area/command/heads_quarters/hop)
 "qrk" = (
 /turf/closed/wall/r_wall,
-/area/medical/genetics/cloning)
+/area/medical/medbay/central)
 "qss" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -111038,11 +111019,11 @@ asi
 aNN
 asi
 qrk
-ixx
+aSX
 lfp
 aCI
-lrG
-lrG
+aNn
+aNn
 aQd
 aQC
 aNn
@@ -111294,7 +111275,7 @@ aVY
 aWe
 aIB
 aWu
-lrG
+aNn
 aNv
 aOH
 aOB
@@ -111551,7 +111532,7 @@ asv
 atU
 avT
 aWv
-lrG
+aNn
 aBA
 aOI
 aOG
@@ -111810,10 +111791,10 @@ avW
 aWw
 hVJ
 aVK
-aOK
+aQs
 aFt
 aPr
-lrG
+aNn
 aYB
 aYB
 aNn
@@ -112065,8 +112046,8 @@ aWb
 aWh
 avX
 aWz
-lrG
-lrG
+aNn
+aNn
 aPd
 aFx
 aPG
@@ -112580,7 +112561,7 @@ aWk
 arI
 avs
 aWE
-lrG
+aNn
 aAO
 aNI
 aVT
@@ -112837,11 +112818,11 @@ aNC
 arM
 avK
 aWF
-lrG
-lrG
+aNn
+aNn
 hVJ
-lrG
-lrG
+aNn
+aNn
 aSx
 aQt
 aQr

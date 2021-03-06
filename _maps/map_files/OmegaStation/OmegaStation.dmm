@@ -36291,6 +36291,17 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/medbay)
+"swq" = (
+/obj/docking_port/stationary{
+	dir = 2;
+	dwidth = 11;
+	height = 22;
+	id = "whiteship_home";
+	name = "Northwest Of The Station";
+	width = 35
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
 "sws" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch";
@@ -57090,7 +57101,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+swq
 aaa
 aaa
 aaa

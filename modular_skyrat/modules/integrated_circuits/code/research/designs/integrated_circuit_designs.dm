@@ -9,6 +9,28 @@
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
+/datum/design/integrated_circuit_disk_advanced
+	name = "Integrated Circuit Printer Upgrade Disk - Advanced Designs"
+	desc = "Install this into your integrated circuit printer to enhance it.  This one adds new, advanced designs to the printer."
+	id = "integrated_circuit_disk_advanced"
+	build_type = PROTOLATHE
+	materials = list (/datum/material/iron = 100, /datum/material/glass = 250)
+	construction_time = 25
+	build_path = /obj/item/disk/integrated_circuit/upgrade/advanced
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
+
+/datum/design/integrated_circuit_disk_clone
+	name = "Integrated Circuit Printer Upgrade Disk - Instant Cloning"
+	desc = "Install this into your integrated circuit printer to enhance it.  This one adds lets you clone assemblies instantly."
+	id = "integrated_circuit_disk_clone"
+	build_type = PROTOLATHE
+	materials = list (/datum/material/iron = 100, /datum/material/glass = 250)
+	construction_time = 25
+	build_path = /obj/item/disk/integrated_circuit/upgrade/clone
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
+
 /datum/design/integrated_circuit_uniform
 	name = "Integrated Circuit Jumpsuit"
 	desc = "A uniform that contains a built in electronic assembly."

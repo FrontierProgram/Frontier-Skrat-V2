@@ -6,9 +6,9 @@
 	icon = 'modular_skyrat/modules/integrated_circuits/icons/obj/assemblies/electronic_tools.dmi'
 	icon_state = "circuit_printer"
 	w_class = WEIGHT_CLASS_BULKY
-	var/upgraded = TRUE		// When hit with an upgrade disk, will turn true, allowing it to print the higher tier circuits.
-	var/can_clone = TRUE		// Allows the printer to clone circuits, either instantly or over time depending on upgrade. Set to FALSE to disable entirely.
-	var/fast_clone = TRUE		// If this is false, then cloning will take an amount of deciseconds equal to the iron cost divided by 100.
+	var/upgraded = FALSE		// When hit with an upgrade disk, will turn true, allowing it to print the higher tier circuits.
+	var/can_clone = FALSE		// Allows the printer to clone circuits, either instantly or over time depending on upgrade. Set to FALSE to disable entirely.
+	var/fast_clone = FALSE		// If this is false, then cloning will take an amount of deciseconds equal to the iron cost divided by 100.
 	var/debug = FALSE			// If it's upgraded and can clone, even without config settings.
 	var/current_category = null
 	var/cloning = FALSE			// If the printer is currently creating a circuit
@@ -51,7 +51,6 @@
 	cloning = FALSE
 
 /obj/item/integrated_circuit_printer/attackby(obj/item/O, mob/user)
-	/* Skyrat port -- Upgade disks disabled for now
 	if(istype(O, /obj/item/disk/integrated_circuit/upgrade/advanced))
 		if(upgraded)
 			to_chat(user, "<span class='warning'>[src] already has this upgrade. </span>")
@@ -67,7 +66,6 @@
 		to_chat(user, "<span class='notice'>You install [O] into [src]. Circuit cloning will now be instant. </span>")
 		fast_clone = TRUE
 		return TRUE
-	*/
 
 	if(istype(O, /obj/item/electronic_assembly))
 		var/obj/item/electronic_assembly/EA = O //microtransactions not included
@@ -252,11 +250,9 @@
 		playsound(src, 'sound/items/jaws_pry.ogg', 50, TRUE)
 
 	if(href_list["print"])
-		/*
 		if(!CONFIG_GET(flag/ic_printing) && !debug)
 			to_chat(usr, "<span class='warning'>CentCom has disabled printing of custom circuitry due to recent allegations of copyright infringement.</span>")
 			return
-		*/
 		if(!can_clone) // Copying and printing ICs is cloning
 			to_chat(usr, "<span class='warning'>This printer does not have the cloning upgrade.</span>")
 			return
@@ -333,7 +329,6 @@
 
 	interact(usr)
 
-/* SKYRAT PORT -- Upgrade Disks disabled for now
 // FUKKEN UPGRADE DISKS
 /obj/item/disk/integrated_circuit/upgrade
 	name = "integrated circuit printer upgrade disk"
@@ -350,4 +345,3 @@
 	name = "integrated circuit printer upgrade disk - instant cloner"
 	desc = "Install this into your integrated circuit printer to enhance it.  This one allows the printer to duplicate assemblies instantaneously."
 	icon_state = "upgrade_disk_clone"
-*/

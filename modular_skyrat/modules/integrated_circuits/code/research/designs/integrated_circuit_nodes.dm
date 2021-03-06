@@ -12,3 +12,11 @@
 	description = "The technology to produce various types of clothing with integrated electronics."
 	design_ids = list("integrated_circuit_uniform", "integrated_circuit_suit", "integrated_circuit_shoes", "integrated_circuit_head", "integrated_circuit_gloves", \
 						"integrated_circuit_glasses", "integrated_circuit_ears")
+
+/datum/techweb_node/integrated_circuitry_upgrades
+	id = "integrated_circuitry_upgrades"
+	display_name = "Integrated Electronics Upgrades"
+	description = "The technology to produce better types of integrated electronics and their respective tools."
+	prereq_ids = list("integrated_circuitry")
+	design_ids = list("integrated_circuit_disk_advanced","integrated_circuit_disk_clone")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)

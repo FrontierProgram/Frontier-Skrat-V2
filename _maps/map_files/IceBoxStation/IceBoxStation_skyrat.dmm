@@ -111,7 +111,8 @@
 /area/engineering/break_room)
 "aan" = (
 /obj/item/stack/tile/iron,
-/turf/open/floor/plating/asteroid/snow/icemoon,
+/obj/structure/lattice,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "aaq" = (
 /obj/structure/cable,
@@ -652,6 +653,15 @@
 /area/command/heads_quarters/hos)
 "acH" = (
 /obj/structure/table,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/bottle/whiskey{
+	pixel_x = -4;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
 /turf/open/floor/carpet,
 /area/cargo/qm)
 "acI" = (
@@ -1144,11 +1154,6 @@
 /obj/structure/filingcabinet,
 /obj/item/toy/figure/qm,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 8;
-	pixel_y = 8
-	},
 /turf/open/floor/iron,
 /area/cargo/qm)
 "afw" = (
@@ -14630,7 +14635,7 @@
 /area/science/mixing/chamber)
 "aXM" = (
 /obj/machinery/door/airlock/maintenance{
-	name = "Cargo Bay Warehouse Maintenance";
+	name = "Quartermaster's Office Maintenance";
 	req_access_txt = "31"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
@@ -17412,6 +17417,13 @@
 	pixel_y = 7
 	},
 /obj/item/pen,
+/obj/machinery/requests_console{
+	announcementConsole = 1;
+	department = "Captain's Desk";
+	departmentType = 5;
+	name = "Captain RC";
+	pixel_x = -30
+	},
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
 "bfz" = (
@@ -17835,6 +17847,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/command/meeting_room)
 "bgN" = (
@@ -17843,6 +17856,7 @@
 	name = "multi-bee plushie";
 	pixel_y = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/commons/storage/mining)
 "bgO" = (
@@ -17875,20 +17889,15 @@
 /turf/open/floor/iron,
 /area/cargo/miningdock)
 "bgS" = (
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "Captain's Desk";
-	departmentType = 5;
-	name = "Captain RC";
-	pixel_x = -30
-	},
 /obj/structure/filingcabinet,
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
 "bgT" = (
 /obj/machinery/computer/communications{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
 "bgU" = (
@@ -17896,12 +17905,14 @@
 	dir = 4
 	},
 /obj/effect/landmark/start/captain,
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
 "bgV" = (
 /obj/structure/table/wood,
 /obj/item/book/manual/wiki/security_space_law,
 /obj/item/coin/plasma,
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
 "bgW" = (
@@ -41277,6 +41288,11 @@
 	icon_state = "oldsmoothdirt"
 	},
 /area/security/prison)
+"enM" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/command/meeting_room)
 "eoi" = (
 /obj/machinery/power/apc/auto_name/west,
 /obj/structure/cable,
@@ -50147,6 +50163,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/security/prison)
+"odL" = (
+/obj/structure/lattice,
+/turf/open/openspace/icemoon,
+/area/icemoon/surface/outdoors)
 "oeg" = (
 /turf/open/floor/iron/dark,
 /area/hallway/primary/fore)
@@ -55587,6 +55607,12 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/science/xenobiology)
+"ucd" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/command/heads_quarters/captain)
 "uco" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
 	dir = 8
@@ -56926,10 +56952,6 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
-/obj/machinery/door/airlock/mining/glass{
-	name = "Quartermaster";
-	req_access_txt = "41"
-	},
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
@@ -56939,6 +56961,10 @@
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
+/obj/machinery/door/airlock/command/glass{
+	name = "Quartermaster";
+	req_access_txt = "41"
+	},
 /turf/open/floor/iron,
 /area/cargo/qm)
 "vFg" = (
@@ -58894,6 +58920,11 @@
 /obj/effect/turf_decal/trimline/darkblue/filled/line,
 /turf/open/floor/iron/dark,
 /area/hallway/primary/fore)
+"xBI" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/command/heads_quarters/captain)
 "xCm" = (
 /obj/machinery/recharger{
 	pixel_y = 4
@@ -81338,12 +81369,12 @@ bHE
 bHE
 bHE
 bLv
-boP
-boP
-boP
-boP
-boP
-boP
+blq
+blq
+odL
+blq
+blq
+blq
 bLv
 bUt
 bLv
@@ -81595,12 +81626,12 @@ bLv
 bLv
 bLv
 bLv
-boP
-boP
-boP
-boP
-boP
-boP
+blq
+blq
+odL
+blq
+blq
+blq
 bLv
 bUt
 bLv
@@ -81848,16 +81879,16 @@ bHE
 cTF
 bHE
 bLv
-boP
-boP
-boP
-boP
-boP
-boP
-boP
-boP
-boP
-boP
+blq
+blq
+blq
+blq
+blq
+blq
+odL
+blq
+blq
+blq
 bLv
 bUt
 bLv
@@ -82105,16 +82136,16 @@ bHE
 bCq
 bHE
 bLv
-boP
-boP
-boP
+odL
+odL
+odL
 aan
-boP
+odL
 ufm
 bGl
-boP
-boP
-boP
+odL
+odL
+odL
 bLv
 bUt
 bLv
@@ -82362,16 +82393,16 @@ cjI
 bCq
 bHE
 bLv
-boP
-boP
-boP
-boP
+blq
+blq
+blq
+blq
 ufm
 bEx
 ufm
-boP
-boP
-boP
+blq
+blq
+blq
 bLv
 bUt
 bLv
@@ -82619,16 +82650,16 @@ bCq
 bCq
 bHE
 bLv
-boP
-boP
-boP
-boP
+blq
+blq
+blq
+blq
 bAN
 bGa
 ufm
-boP
-boP
-boP
+blq
+blq
+blq
 bLv
 bUt
 bLv
@@ -82872,20 +82903,20 @@ bLv
 bCq
 bHE
 bLv
-boP
+blq
 bLv
 bHE
 bLv
-boP
-boP
-boP
-boP
-boP
+blq
+blq
+blq
+blq
+blq
 ufm
-boP
-boP
-boP
-boP
+blq
+blq
+blq
+blq
 bLv
 bUt
 bLv
@@ -83129,20 +83160,20 @@ bHE
 bHE
 bHE
 bLv
-boP
+blq
 bLv
 bUt
 bLv
-boP
-boP
-boP
-boP
-boP
+odL
+odL
+odL
+odL
+odL
 ufm
-boP
-boP
-boP
-boP
+odL
+odL
+odL
+odL
 bCq
 bUt
 bCq
@@ -83386,20 +83417,20 @@ bLv
 bHE
 bLv
 bCq
-boP
+blq
 bLv
 bUt
 bLv
-boP
-boP
-boP
-boP
-boP
-boP
-boP
-boP
-boP
-boP
+blq
+blq
+blq
+blq
+blq
+odL
+blq
+blq
+blq
+blq
 bCq
 bUt
 bSp
@@ -83637,13 +83668,13 @@ bCq
 ufp
 bJf
 bCq
-boP
-boP
+blq
+blq
 bLv
 bHE
 bLv
-boP
-boP
+blq
+blq
 bCq
 bUt
 bCq
@@ -84659,18 +84690,18 @@ aJq
 ova
 aJq
 aJw
-boP
-boP
-boP
-boP
-boP
-boP
-boP
-boP
-boP
-boP
-boP
-boP
+blq
+blq
+blq
+blq
+blq
+blq
+blq
+blq
+blq
+blq
+blq
+blq
 bCq
 ciT
 cay
@@ -84916,18 +84947,18 @@ aJq
 ova
 byU
 aJw
-boP
+blq
 bEU
 bEU
 bEU
 bEU
 bEU
-boP
-boP
-boP
-boP
-boP
-boP
+blq
+blq
+blq
+blq
+blq
+blq
 bCq
 bHE
 cay
@@ -85173,16 +85204,16 @@ aJq
 ova
 aJq
 aJw
-boP
+blq
 bEU
 bGt
 bHG
 bJh
 bEU
-boP
-boP
-boP
-boP
+blq
+blq
+blq
+blq
 bLv
 bLv
 bCq
@@ -85430,16 +85461,16 @@ byN
 ova
 rPt
 aJw
-boP
+blq
 bEU
 bGs
 cBC
 bJg
 bEU
-boP
-boP
-boP
-boP
+blq
+blq
+blq
+blq
 bLv
 caz
 caq
@@ -87212,7 +87243,7 @@ bfv
 bfv
 bfv
 bfv
-aZM
+enM
 aZM
 aZM
 urc
@@ -87469,7 +87500,7 @@ bnn
 bdf
 beb
 bfv
-urc
+blq
 urc
 urc
 urc
@@ -87726,7 +87757,7 @@ aZR
 bbm
 beh
 bfv
-urc
+blq
 urc
 lSU
 nlo
@@ -89268,7 +89299,7 @@ aZR
 bbm
 beh
 bfv
-urc
+blq
 urc
 uhq
 xkH
@@ -89525,7 +89556,7 @@ bnt
 aZU
 beg
 bfv
-urc
+blq
 urc
 urc
 urc
@@ -89782,7 +89813,7 @@ bfv
 bfv
 bfv
 bfv
-aZV
+xBI
 aZV
 aZV
 urc
@@ -91067,7 +91098,7 @@ baP
 bbZ
 bcP
 cBo
-bdk
+ucd
 bdk
 aGv
 aZV
@@ -107047,7 +107078,7 @@ bQZ
 cou
 cvO
 cNW
-boP
+blq
 cNW
 cNW
 czX
@@ -107304,7 +107335,7 @@ bQZ
 cOe
 cvO
 cOT
-boP
+blq
 cOT
 bgy
 czW
@@ -107561,7 +107592,7 @@ bQZ
 bYs
 cvO
 cOT
-boP
+blq
 cOT
 bgK
 cNW
@@ -107818,7 +107849,7 @@ bQZ
 cgu
 chA
 cNW
-boP
+blq
 cNW
 bgK
 cNW

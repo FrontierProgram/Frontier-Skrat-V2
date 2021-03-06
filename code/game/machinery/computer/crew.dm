@@ -34,6 +34,8 @@ GLOBAL_DATUM_INIT(crewmonitor, /datum/crewmonitor, new)
 		// Note that jobs divisible by 10 are considered heads of staff, and bolded
 		// 00: Captain
 		"Captain" = 00,
+		"Shuttle Pilot" = 01, //FRONTIER EDIT ADDITION
+		"Blueshield" = 02, //SKRYAT EDIT ADDITION
 		// 10-19: Security
 		"Head of Security" = 10,
 		"Warden" = 11,
@@ -41,7 +43,6 @@ GLOBAL_DATUM_INIT(crewmonitor, /datum/crewmonitor, new)
 		"Detective" = 13,
 		"Security Medic" = 14, //SKYRAT EDIT ADDITION - SEC_HAUL
 		"Security Sergeant" = 15, //SKYRAT EDIT ADDITION - SEC_HAUL
-		"Blueshield" = 16,
 		// 20-29: Medbay
 		"Chief Medical Officer" = 20,
 		"Chemist" = 21,

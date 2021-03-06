@@ -1201,16 +1201,16 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "age" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/brown{
+/obj/machinery/light{
 	dir = 8
 	},
-/obj/item/stack/ore/silver,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/closet/wardrobe/miner,
 /turf/open/floor/iron,
 /area/cargo/miningdock)
 "agg" = (
@@ -4874,11 +4874,20 @@
 /turf/open/floor/plating,
 /area/cargo/storage)
 "avD" = (
-/obj/machinery/light/small{
+/obj/structure/railing/corner{
 	dir = 4
 	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
 /turf/open/floor/iron,
-/area/cargo/storage)
+/area/cargo/miningdock)
 "avE" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "maint3"
@@ -5185,13 +5194,6 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
-"awE" = (
-/obj/machinery/door/airlock/mining/glass{
-	name = "Mining Dock";
-	req_access_txt = "48"
-	},
-/turf/open/floor/iron,
-/area/cargo/miningdock)
 "awF" = (
 /obj/effect/loot_site_spawner,
 /turf/open/floor/plating,
@@ -6429,16 +6431,6 @@
 	},
 /turf/open/floor/iron,
 /area/commons/dorms)
-"azU" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/brown{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/cargo/miningdock)
 "azV" = (
 /obj/machinery/rnd/bepis,
 /obj/effect/turf_decal/stripes/line{
@@ -14065,10 +14057,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port)
-"aWv" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/iron,
-/area/cargo/miningdock)
 "aWx" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -14094,10 +14082,16 @@
 /turf/open/openspace/icemoon,
 /area/security/execution/transfer)
 "aWC" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
+/obj/structure/railing{
+	dir = 1
 	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown,
 /turf/open/floor/iron,
 /area/cargo/miningdock)
 "aWD" = (
@@ -14174,12 +14168,11 @@
 /turf/open/floor/iron/dark,
 /area/command/bridge)
 "aWK" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 5
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/cargo/miningdock)
@@ -14537,7 +14530,6 @@
 /turf/open/floor/iron,
 /area/commons/locker)
 "aXx" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 9
@@ -14549,12 +14541,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/medical/medbay/aft)
-"aXB" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/cargo/miningdock)
 "aXC" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -16690,19 +16676,6 @@
 	},
 /turf/open/floor/plating,
 /area/hallway/secondary/exit)
-"bdB" = (
-/obj/structure/cable,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/brown{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/cargo/miningdock)
 "bdC" = (
 /obj/structure/disposalpipe/sorting/mail/flip{
 	dir = 1;
@@ -17878,15 +17851,7 @@
 /turf/open/floor/iron/white,
 /area/medical/medbay/lobby)
 "bgR" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/brown{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/brown,
-/obj/structure/closet/wardrobe/miner,
-/turf/open/floor/iron,
+/turf/open/openspace,
 /area/cargo/miningdock)
 "bgS" = (
 /obj/structure/filingcabinet,
@@ -20560,15 +20525,14 @@
 /turf/open/floor/iron,
 /area/cargo/office)
 "bnB" = (
-/obj/structure/cable,
 /obj/effect/turf_decal/caution{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/brown{
-	dir = 8
+	dir = 1
 	},
 /obj/effect/turf_decal/tile/brown{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/cargo/miningdock)
@@ -20731,10 +20695,6 @@
 /area/command/heads_quarters/hop)
 "bnT" = (
 /obj/structure/ladder,
-/obj/effect/turf_decal/stripes/box,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
 /turf/open/floor/iron,
 /area/cargo/miningdock)
 "bnU" = (
@@ -21301,20 +21261,6 @@
 	dir = 8
 	},
 /area/science/research)
-"bpr" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/brown,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/cargo/miningdock)
 "bps" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 4
@@ -21499,15 +21445,11 @@
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
 "bqb" = (
-/obj/structure/cable,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
+	dir = 6
 	},
 /turf/open/floor/iron,
 /area/cargo/miningdock)
@@ -22124,6 +22066,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/cargo/miningdock)
 "brD" = (
@@ -22332,11 +22277,14 @@
 /area/cargo/miningdock)
 "bsd" = (
 /obj/structure/closet/emcloset,
-/obj/effect/turf_decal/tile/brown{
+/obj/machinery/light{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
 	},
 /obj/effect/turf_decal/tile/brown,
 /turf/open/floor/iron,
@@ -22364,22 +22312,21 @@
 /turf/open/floor/iron/white,
 /area/medical/medbay/aft)
 "bsf" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+/obj/effect/turf_decal/tile/brown,
 /turf/open/floor/iron,
 /area/cargo/miningdock)
 "bsg" = (
-/obj/effect/turf_decal/tile/brown,
+/obj/machinery/mineral/equipment_vendor,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
-/obj/machinery/mineral/equipment_vendor,
+/obj/effect/turf_decal/tile/brown,
 /turf/open/floor/iron,
 /area/cargo/miningdock)
 "bsh" = (
@@ -22781,10 +22728,15 @@
 /turf/open/floor/iron/white,
 /area/science/research)
 "bti" = (
-/obj/structure/cable,
 /obj/machinery/door/airlock/mining/glass{
 	name = "Mining Dock";
 	req_access_txt = "48"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/cargo/miningdock)
@@ -25392,7 +25344,6 @@
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "bBG" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
 	dir = 4
@@ -26046,7 +25997,6 @@
 /turf/open/floor/iron/white,
 /area/science/research)
 "bDo" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron,
@@ -27199,12 +27149,11 @@
 /turf/open/floor/iron,
 /area/science/mixing)
 "bGM" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
+	dir = 5
 	},
 /turf/open/floor/iron,
 /area/cargo/miningdock)
@@ -27440,12 +27389,17 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/item/stack/ore/silver,
+/obj/item/stack/ore/iron,
 /turf/open/floor/iron,
 /area/cargo/miningdock)
 "bHz" = (
-/obj/item/stack/ore/iron,
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
+	},
+/obj/structure/railing/corner{
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/cargo/miningdock)
@@ -27996,12 +27950,17 @@
 	name = "Mining Dock";
 	req_access_txt = "48"
 	},
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/cargo/miningdock)
@@ -30087,6 +30046,9 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/effect/turf_decal/vg_decals/atmos/mix{
+	dir = 8
+	},
 /turf/open/floor/engine/vacuum,
 /area/engineering/atmos)
 "bQD" = (
@@ -31189,6 +31151,9 @@
 "bUW" = (
 /obj/machinery/light/small{
 	dir = 4
+	},
+/obj/effect/turf_decal/vg_decals/atmos/nitrous_oxide{
+	dir = 8
 	},
 /turf/open/floor/engine/n2o,
 /area/engineering/atmos)
@@ -32416,6 +32381,9 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/effect/turf_decal/vg_decals/atmos/plasma{
+	dir = 8
+	},
 /turf/open/floor/engine/plasma,
 /area/engineering/atmos)
 "bYX" = (
@@ -33377,6 +33345,9 @@
 "ccD" = (
 /obj/machinery/light/small{
 	dir = 4
+	},
+/obj/effect/turf_decal/vg_decals/atmos/carbon_dioxide{
+	dir = 8
 	},
 /turf/open/floor/engine/co2,
 /area/engineering/atmos)
@@ -35320,14 +35291,23 @@
 /area/security/office)
 "cmU" = (
 /obj/machinery/light/small,
+/obj/effect/turf_decal/vg_decals/atmos/nitrogen{
+	dir = 1
+	},
 /turf/open/floor/engine/n2,
 /area/engineering/atmos)
 "cmV" = (
 /obj/machinery/light/small,
+/obj/effect/turf_decal/vg_decals/atmos/oxygen{
+	dir = 1
+	},
 /turf/open/floor/engine/o2,
 /area/engineering/atmos)
 "cmW" = (
 /obj/machinery/light/small,
+/obj/effect/turf_decal/vg_decals/atmos/air{
+	dir = 1
+	},
 /turf/open/floor/engine/air,
 /area/engineering/atmos)
 "cmX" = (
@@ -41038,7 +41018,15 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "dUO" = (
-/obj/structure/cable,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/cargo/miningdock)
 "dVr" = (
@@ -50107,7 +50095,6 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
@@ -79292,11 +79279,11 @@ aqu
 asX
 ayf
 ofT
-blW
-blW
+bxy
+bxy
 bxy
 age
-bHA
+avD
 bnB
 bHA
 bsd
@@ -79549,13 +79536,13 @@ arm
 arm
 ayg
 ofT
-avD
-ofT
-awE
-azU
+bGi
+bgR
+bgR
+bgR
+dUO
 byE
-aWC
-aXB
+byE
 bsf
 bxy
 boP
@@ -79806,13 +79793,13 @@ arm
 arm
 ayi
 ofT
-aZE
-blW
-bxy
-bdB
+bGi
+bgR
+bgR
+bgR
 dUO
 bnT
-dUO
+byE
 bsf
 bxy
 boP
@@ -80063,12 +80050,12 @@ arm
 arm
 ayp
 ofT
-blW
-boP
-bxy
-azU
-aWv
-aWK
+bGi
+bgR
+bgR
+bgR
+dUO
+byE
 byE
 bsf
 bxy
@@ -80320,12 +80307,12 @@ arQ
 atl
 azg
 ofT
-blW
-boP
-bxy
+bGi
 bgR
+bgR
+bgR
+aWC
 bkz
-bpr
 bkz
 bsg
 bxy
@@ -80577,9 +80564,9 @@ aya
 aya
 azs
 aZE
-aZE
-boP
 bxy
+bGi
+bGi
 bxy
 bHz
 bqb
@@ -81610,7 +81597,7 @@ bDk
 agv
 byE
 byE
-bGM
+aWK
 bsb
 bGi
 boP
@@ -81867,7 +81854,7 @@ bAb
 bzY
 byE
 bEQ
-bGM
+aWK
 bsc
 bGi
 boP

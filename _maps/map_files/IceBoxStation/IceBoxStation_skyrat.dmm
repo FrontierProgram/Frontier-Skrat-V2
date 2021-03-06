@@ -22946,9 +22946,9 @@
 /turf/open/floor/iron/dark,
 /area/command/heads_quarters/hop)
 "btF" = (
-/obj/effect/turf_decal/weather/snow,
-/turf/open/floor/plating/snowed/icemoon,
-/area/icemoon/surface/outdoors)
+/obj/structure/cable,
+/turf/open/floor/iron/dark/telecomms,
+/area/tcommsat/server)
 "btG" = (
 /obj/machinery/camera{
 	c_tag = "Public Mining Storage";
@@ -24016,11 +24016,6 @@
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/iron/dark,
 /area/command/heads_quarters/hop)
-"bwm" = (
-/obj/structure/marker_beacon/burgundy,
-/obj/effect/turf_decal/weather/snow,
-/turf/open/floor/plating/snowed/icemoon,
-/area/icemoon/surface/outdoors)
 "bwn" = (
 /obj/machinery/light,
 /turf/open/floor/iron,
@@ -39884,10 +39879,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/showroomfloor,
 /area/hallway/secondary/service)
-"cSE" = (
-/obj/structure/cable,
-/turf/open/floor/iron/dark/telecomms,
-/area/tcommsat/server)
 "cSF" = (
 /obj/structure/sink{
 	dir = 4;
@@ -74639,7 +74630,7 @@ boP
 boP
 boP
 boP
-btF
+ufm
 boP
 boP
 boP
@@ -74892,7 +74883,7 @@ bkD
 boP
 boP
 boP
-btF
+ufm
 boP
 boP
 boP
@@ -75153,7 +75144,7 @@ bte
 boP
 boP
 boP
-bwm
+cxM
 boP
 boP
 boP
@@ -75406,7 +75397,7 @@ bkF
 boP
 boP
 boP
-btF
+ufm
 boP
 boP
 boP
@@ -75667,7 +75658,7 @@ boP
 boP
 boP
 boP
-btF
+ufm
 boP
 boP
 boP
@@ -75920,7 +75911,7 @@ bkF
 boP
 boP
 boP
-bwm
+cxM
 boP
 boP
 boP
@@ -76181,7 +76172,7 @@ boP
 boP
 boP
 boP
-btF
+ufm
 boP
 boP
 boP
@@ -76691,7 +76682,7 @@ bkE
 boP
 boP
 boP
-bwm
+cxM
 boP
 boP
 boP
@@ -76948,11 +76939,11 @@ bkF
 boP
 boP
 boP
-btF
+ufm
 boP
 boP
 bnv
-btF
+ufm
 boP
 boP
 boP
@@ -84687,7 +84678,7 @@ bVI
 bWD
 bXA
 bYB
-bYz
+btF
 cai
 bvy
 ccg
@@ -84945,8 +84936,8 @@ bWC
 bXz
 bYA
 bXC
-bXC
 bWB
+bXC
 ccf
 cdc
 cdZ
@@ -85203,7 +85194,7 @@ bXC
 bXC
 bXC
 cak
-bWB
+bXC
 bWB
 bWB
 cec
@@ -85458,9 +85449,9 @@ bVI
 bWE
 bXB
 bYC
+bWB
+bWB
 bXC
-bWB
-bWB
 cch
 cde
 ceb
@@ -85715,9 +85706,9 @@ bVI
 bWG
 bXD
 bYz
-cSE
-bWB
 bYz
+bWB
+btF
 bYz
 cdf
 ced

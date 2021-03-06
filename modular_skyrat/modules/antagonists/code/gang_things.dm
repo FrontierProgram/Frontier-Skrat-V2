@@ -7,6 +7,10 @@
 		to_chat(user, "It'd be a terrible idea. What about the Heads of Staff?")
 		user.emote("shake")
 		return
+	if(user.mind.assigned_role == "Shuttle Pilot")
+		to_chat(user, "Joining a gang? You? Good heavens, no.")
+		user.emote("shake")
+		return
 	if(HAS_TRAIT(user, TRAIT_MINDSHIELD))
 		to_chat(user, "You attended a seminar on not signing up for a gang and are not interested.")
 		user.emote("shake")

@@ -2632,9 +2632,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/mine/laborcamp)
-"jp" = (
-/turf/closed/wall,
-/area/icemoon/underground/unexplored/rivers)
 "jr" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -32822,11 +32819,11 @@ ak
 ak
 ak
 Fp
-jp
+ax
 ak
 ak
 ak
-jp
+ax
 Fp
 Fp
 Fp

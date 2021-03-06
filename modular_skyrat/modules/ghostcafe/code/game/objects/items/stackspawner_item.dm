@@ -9,7 +9,7 @@
 
 /obj/item/stackspawner/attack_self(mob/user)
 	. = ..()
-	
+
 	var/static/list/material_list
 	if(!material_list)
 		material_list = list(
@@ -34,7 +34,7 @@
 			"Bronze"					= image(icon = icon, icon_state = "brass"),
 			"Runite"					= image(icon = icon, icon_state = "runite"),
 			"Runed"						= image(icon = icon, icon_state = "runed"),
-			"Mythril"					= image(icon = icon, icon_state = "mythril"),
+			//"Mythril"					= image(icon = icon, icon_state = "mythril"),
 			"Adamantine"				= image(icon = icon, icon_state = "adamantine"),
 			"Alien Alloy"				= image(icon = icon, icon_state = "alien"),
 			//"Alien Glass"				= image(icon = icon, icon_state = "aglass"),
@@ -102,14 +102,14 @@
 			itemstack = /obj/item/stack/tile/bronze
 		if("Runed")
 			itemstack = /obj/item/stack/sheet/runed_metal
-		if("Mythril")
-			itemstack = /obj/item/stack/sheet/mineral/mythril
-		if("Adamantine")	
+		//if("Mythril")
+		//	itemstack = /obj/item/stack/sheet/mineral/mythril
+		if("Adamantine")
 			itemstack = /obj/item/stack/sheet/mineral/adamantine
 		if("Alien Alloy")
 			itemstack = /obj/item/stack/sheet/mineral/abductor
 		//if("Alien Glass")
-		//	itemstack = 
+		//	itemstack =
 		if("Coal")
 			itemstack = /obj/item/stack/sheet/mineral/coal
 		if("Wood")
@@ -147,7 +147,7 @@
 
 /obj/item/stackspawner/afterattack(atom/target, mob/user, proximity_flag, click_parameters)
 	. = ..()
-	if(!proximity_flag) 
+	if(!proximity_flag)
 		return
 	var/obj/item/stack/spawnitemstack = new itemstack(get_turf(target))
 	spawnitemstack.amount = spawnamount

@@ -17466,6 +17466,12 @@
 "aTW" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
+/obj/structure/curtain/cloth/fancy/mechanical{
+	icon_state = "bounty-open";
+	icon_type = "bounty";
+	id = "prisoncell2";
+	name = "curtain"
+	},
 /turf/open/floor/plating,
 /area/security/prison/safe)
 "aTX" = (
@@ -25970,20 +25976,7 @@
 /area/security/prison)
 "cVH" = (
 /obj/machinery/ntnet_relay,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/iron/dark/telecomms,
+/turf/open/floor/circuit/green/telecomms,
 /area/tcommsat/server)
 "cWv" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
@@ -26803,24 +26796,7 @@
 /turf/open/floor/iron/white,
 /area/science/mixing)
 "edf" = (
-/obj/machinery/camera{
-	c_tag = "Telecomms Server Room";
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/iron/dark/telecomms,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/tcommsat/server)
 "eea" = (
 /obj/structure/window/reinforced{
@@ -29389,6 +29365,22 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/primary/aft)
+"ijg" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/telecomms,
+/area/tcommsat/server)
 "ijE" = (
 /turf/open/floor/iron,
 /area/security/prison)
@@ -29875,6 +29867,10 @@
 /obj/item/bedsheet,
 /obj/structure/cable,
 /obj/structure/bed,
+/obj/machinery/button/curtain{
+	id = "prisoncell1";
+	pixel_y = 24
+	},
 /turf/open/floor/carpet,
 /area/security/prison/safe)
 "iXD" = (
@@ -30184,6 +30180,17 @@
 	},
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
+"jrL" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/obj/structure/curtain/cloth/fancy/mechanical{
+	icon_state = "bounty-open";
+	icon_type = "bounty";
+	id = "prisoncell1";
+	name = "curtain"
+	},
+/turf/open/floor/plating,
+/area/security/prison/safe)
 "jti" = (
 /obj/structure/sign/warning/vacuum/external{
 	pixel_y = 32
@@ -31831,27 +31838,13 @@
 /turf/closed/wall/r_wall,
 /area/science/mixing)
 "lZD" = (
-/obj/machinery/status_display/evac{
-	pixel_y = -32
+/obj/structure/cable,
+/obj/machinery/button/curtain{
+	id = "prisoncell2";
+	pixel_y = 24
 	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
-/turf/open/floor/iron/dark/telecomms,
-/area/tcommsat/server)
+/turf/open/floor/carpet,
+/area/security/prison/safe)
 "lZR" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -32787,6 +32780,28 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/science/mixing)
+"npC" = (
+/obj/machinery/status_display/evac{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/telecomms,
+/area/tcommsat/server)
 "nqm" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/purple{
@@ -40375,6 +40390,26 @@
 	},
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
+"uMM" = (
+/obj/machinery/camera{
+	c_tag = "Telecomms Server Room";
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/telecomms,
+/area/tcommsat/server)
 "uNt" = (
 /obj/machinery/vending/cigarette,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
@@ -41236,20 +41271,7 @@
 /turf/open/floor/iron/dark,
 /area/security/prison)
 "vXP" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/iron/dark/telecomms,
+/turf/open/floor/circuit/green/telecomms,
 /area/tcommsat/server)
 "vYr" = (
 /obj/structure/cable,
@@ -64918,8 +64940,8 @@ eyu
 eyu
 eyu
 eyu
+eyu
 oIG
-aad
 aad
 aaa
 aaa
@@ -65174,10 +65196,10 @@ vWg
 mZM
 wRs
 vXP
+ijg
 eyu
 fFw
 xrf
-aad
 aac
 aaa
 aaa
@@ -65430,11 +65452,11 @@ sON
 wUL
 oip
 ruy
-lZD
+ruy
+npC
 eyu
 oql
 uvg
-aad
 aac
 aaa
 aaa
@@ -65688,9 +65710,9 @@ wkO
 pQR
 vBU
 cVH
+ijg
 eyu
 oql
-aad
 aad
 aad
 aaa
@@ -65944,9 +65966,9 @@ sOU
 wUL
 oip
 ruy
-lZD
+ruy
+npC
 eyu
-aad
 aad
 aad
 aad
@@ -66202,10 +66224,10 @@ xej
 lUE
 ecj
 edf
+uMM
 eyu
 aiU
 uvg
-aad
 aaa
 aaa
 aaa
@@ -66460,8 +66482,8 @@ eyu
 eyu
 eyu
 eyu
+eyu
 uoy
-xrf
 xrf
 aac
 aaa
@@ -68978,8 +69000,8 @@ aNU
 aTW
 aTW
 aNU
-aTW
-aTW
+jrL
+jrL
 aNU
 aad
 aad
@@ -69232,7 +69254,7 @@ aaa
 ajd
 aac
 aNU
-jfu
+lZD
 vGA
 djh
 iXc

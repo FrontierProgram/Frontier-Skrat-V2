@@ -37843,7 +37843,6 @@
 /obj/structure/table/reinforced,
 /obj/machinery/cell_charger,
 /obj/item/stock_parts/cell/high/plus,
-/obj/item/rcl/pre_loaded,
 /turf/open/floor/iron,
 /area/command/heads_quarters/ce)
 "cBN" = (
@@ -85089,8 +85088,8 @@ aLX
 bBi
 aOE
 aJn
-boP
-boP
+blq
+blq
 aJn
 aJs
 aJq
@@ -85346,8 +85345,8 @@ aJs
 bBi
 aOE
 aJn
-boP
-boP
+blq
+blq
 aJw
 aVb
 aWH
@@ -85603,8 +85602,8 @@ aJs
 bBi
 bJx
 aJn
-boP
-boP
+blq
+blq
 aTQ
 aVd
 aWJ
@@ -85860,8 +85859,8 @@ aJs
 bBi
 aOE
 aJn
-boP
-boP
+blq
+blq
 aPR
 aVc
 aWI
@@ -86117,7 +86116,7 @@ aJr
 bBi
 aOE
 aJn
-boP
+blq
 aPR
 aPR
 aPR
@@ -86374,7 +86373,7 @@ aJq
 bBi
 aOE
 aJn
-boP
+blq
 aPR
 cQo
 vJC
@@ -86631,7 +86630,7 @@ aJq
 bBi
 aOE
 aJn
-boP
+blq
 aPR
 oZm
 aVg
@@ -86882,7 +86881,7 @@ afO
 azW
 agm
 aBt
-boP
+blq
 aJn
 aLY
 swA
@@ -87139,7 +87138,7 @@ aBt
 azW
 aio
 aBt
-boP
+blq
 aJn
 aJq
 bBi
@@ -89709,7 +89708,7 @@ tti
 ooQ
 uUe
 xbG
-boP
+blq
 aJn
 aJq
 bBi
@@ -89966,7 +89965,7 @@ rkf
 wfK
 tqo
 xbG
-boP
+blq
 aJn
 aLY
 swA
@@ -90229,7 +90228,7 @@ beX
 iEH
 aOE
 aJn
-boP
+blq
 aPR
 aUe
 aVs
@@ -90486,7 +90485,7 @@ aMg
 icV
 aOE
 aJn
-boP
+blq
 aPR
 aUd
 aVr
@@ -90743,7 +90742,7 @@ aMj
 wyl
 aOE
 aJn
-boP
+blq
 aPR
 aPR
 aPR
@@ -91000,8 +90999,8 @@ aLO
 gWZ
 aOE
 aJn
-boP
-boP
+blq
+blq
 aPR
 aVt
 aXb
@@ -91257,8 +91256,8 @@ aLR
 ova
 aOE
 aJn
-boP
-boP
+blq
+blq
 aTQ
 aVd
 aXe
@@ -91514,8 +91513,8 @@ aLQ
 hxP
 aOE
 aJn
-boP
-boP
+blq
+blq
 aJw
 aVu
 aXd
@@ -91771,8 +91770,8 @@ aMn
 ova
 aOE
 aJn
-boP
-boP
+blq
+blq
 aJn
 aVv
 ayD

@@ -3950,6 +3950,16 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/maintenance/space_hut/cabin)
+"pQ" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/toy/crayon/spraycan{
+	pixel_y = 9
+	},
+/turf/open/floor/iron{
+	icon = 'icons/turf/floors.dmi'
+	},
+/area/ruin/powered)
 "pS" = (
 /obj/effect/decal/cleanable/blood/drip{
 	pixel_x = -3;
@@ -4322,7 +4332,6 @@
 /turf/open/floor/iron/dark,
 /area/mine/laborcamp)
 "sq" = (
-/obj/effect/turf_decal/vg_decals/department/cargo,
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
@@ -4330,6 +4339,17 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "r";
+	pixel_x = -15
+	},
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "g"
+	},
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "o";
+	pixel_x = 10
+	},
 /turf/open/floor/iron{
 	icon = 'icons/turf/floors.dmi'
 	},
@@ -5142,6 +5162,26 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
+"xf" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "c";
+	pixel_x = -10
+	},
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "a";
+	pixel_x = 3
+	},
+/turf/open/floor/iron{
+	icon = 'icons/turf/floors.dmi'
+	},
+/area/ruin/powered)
 "xg" = (
 /obj/structure/window/reinforced/spawner/west,
 /turf/open/floor/iron/dark,
@@ -9144,6 +9184,21 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/mine/living_quarters)
+"TD" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "credit"
+	},
+/turf/open/floor/iron{
+	icon = 'icons/turf/floors.dmi'
+	},
+/area/ruin/powered)
 "TE" = (
 /obj/machinery/firealarm{
 	dir = 1;
@@ -9630,20 +9685,6 @@
 /turf/open/floor/iron/white,
 /area/mine/laborcamp)
 "VZ" = (
-/obj/effect/turf_decal/plaque{
-	icon = 'icons/effects/crayondecal.dmi';
-	icon_state = "n";
-	pixel_x = -10
-	},
-/obj/effect/turf_decal/plaque{
-	icon = 'icons/effects/crayondecal.dmi';
-	icon_state = "i"
-	},
-/obj/effect/turf_decal/plaque{
-	icon = 'icons/effects/crayondecal.dmi';
-	icon_state = "a";
-	pixel_x = 9
-	},
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
@@ -9651,6 +9692,17 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "n";
+	pixel_x = -9
+	},
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "i"
+	},
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "a";
+	pixel_x = 9
+	},
 /turf/open/floor/iron{
 	icon = 'icons/turf/floors.dmi'
 	},
@@ -9917,6 +9969,14 @@
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/wood,
 /area/maintenance/space_hut/cabin)
+"Xs" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/storage/crayons,
+/turf/open/floor/iron{
+	icon = 'icons/turf/floors.dmi'
+	},
+/area/ruin/powered)
 "Xt" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/iron,
@@ -62681,7 +62741,7 @@ Hw
 nr
 nr
 DF
-Kx
+xf
 nr
 RB
 mX
@@ -62934,7 +62994,7 @@ ak
 ak
 ak
 mX
-ul
+Xs
 nr
 nr
 DF
@@ -63448,11 +63508,11 @@ ak
 ak
 ak
 mX
-ul
+pQ
 nr
 nr
 DF
-Kx
+TD
 nr
 RB
 FS

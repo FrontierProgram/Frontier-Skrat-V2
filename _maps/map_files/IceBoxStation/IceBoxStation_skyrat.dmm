@@ -3306,9 +3306,6 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral,
-/obj/machinery/light_switch{
-	pixel_x = -27
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -3317,6 +3314,18 @@
 	},
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
+	},
+/obj/machinery/camera{
+	c_tag = "Vacant Commissary";
+	dir = 4
+	},
+/obj/machinery/button/door{
+	id = "commissarydoor";
+	name = "Commissary Door Lock";
+	normaldoorcontrol = 1;
+	pixel_x = -26;
+	pixel_y = -6;
+	specialfunctions = 4
 	},
 /turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
@@ -8915,10 +8924,9 @@
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors)
 "aHt" = (
-/turf/open/floor/iron/icemoon{
-	icon_state = "damaged3"
-	},
-/area/icemoon/surface/outdoors)
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating,
+/area/maintenance/port)
 "aHu" = (
 /obj/machinery/status_display/evac{
 	pixel_x = 32
@@ -11996,10 +12004,8 @@
 /turf/open/floor/iron/dark,
 /area/command/bridge)
 "aRo" = (
-/obj/item/paper/crumpled,
-/turf/open/floor/iron/icemoon{
-	icon_state = "damaged2"
-	},
+/obj/machinery/atmospherics/pipe/simple/yellow/visible,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "aRp" = (
 /obj/machinery/computer/shuttle/mining,
@@ -14214,9 +14220,9 @@
 /turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
 "aYj" = (
-/turf/open/floor/iron/icemoon{
-	icon_state = "damaged5"
-	},
+/obj/machinery/atmospherics/pipe/simple/yellow/visible,
+/obj/structure/lattice/catwalk,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "aYk" = (
 /obj/machinery/light,
@@ -15410,10 +15416,6 @@
 /obj/structure/disposalpipe/junction/flip{
 	dir = 8
 	},
-/obj/machinery/camera{
-	c_tag = "Vacant Commissary";
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
@@ -15439,7 +15441,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/obj/effect/spawner/lootdrop/maintenance,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
@@ -15448,11 +15449,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port)
-"bbV" = (
-/obj/item/airlock_painter,
-/obj/structure/closet,
-/turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/surface/outdoors)
 "bbW" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "heads_meeting";
@@ -15990,7 +15986,17 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
-/turf/open/floor/plating,
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
 "bdF" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -22383,26 +22389,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/science/genetics)
-"bus" = (
-/obj/machinery/door/airlock/external{
-	name = "External Airlock";
-	req_access_txt = "24"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/maintenance/aft)
-"but" = (
-/obj/machinery/door/airlock/external{
-	name = "Internal Airlock";
-	req_access_txt = "24"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/maintenance/aft)
 "buu" = (
 /obj/machinery/vending/wardrobe/gene_wardrobe,
 /obj/structure/disposalpipe/segment,
@@ -22540,7 +22526,7 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/snowed/icemoon,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "buK" = (
 /obj/machinery/light{
@@ -23758,7 +23744,7 @@
 	dir = 10
 	},
 /obj/structure/lattice,
-/turf/open/floor/plating/snowed/icemoon,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "bzn" = (
 /obj/machinery/atmospherics/pipe/simple/yellow/visible{
@@ -23766,7 +23752,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/snowed/icemoon,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "bzp" = (
 /obj/machinery/door/airlock/external{
@@ -24145,7 +24131,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/snowed/icemoon,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "bAI" = (
 /obj/structure/disposalpipe/segment{
@@ -26577,7 +26563,8 @@
 /area/maintenance/aft)
 "bHV" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible,
-/turf/open/floor/plating/snowed/icemoon,
+/obj/structure/lattice/catwalk,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "bHW" = (
 /obj/structure/disposalpipe/segment,
@@ -26963,11 +26950,13 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/atmos_waste{
 	dir = 1
 	},
-/turf/open/floor/plating/snowed/icemoon,
+/obj/structure/lattice,
+/turf/open/openspace/icemoon,
 /area/engineering/atmos)
 "bIZ" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
-/turf/open/floor/plating/snowed/icemoon,
+/obj/structure/lattice/catwalk,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "bJc" = (
 /obj/structure/grille/broken,
@@ -27723,7 +27712,20 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/turf/open/floor/plating,
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/machinery/light_switch{
+	pixel_x = -27
+	},
+/turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
 "bLH" = (
 /obj/structure/closet/emcloset,
@@ -40353,7 +40355,7 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/snowed/icemoon,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "enl" = (
 /obj/machinery/hydroponics/soil{
@@ -41111,7 +41113,7 @@
 /obj/machinery/atmospherics/pipe/simple/yellow/visible{
 	dir = 10
 	},
-/turf/open/floor/plating/asteroid/snow/icemoon,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "fpc" = (
 /mob/living/simple_animal/sloth/paperwork,
@@ -43871,7 +43873,7 @@
 /obj/machinery/atmospherics/pipe/simple/yellow/visible{
 	dir = 4
 	},
-/turf/open/floor/plating/asteroid/snow/icemoon,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "ipA" = (
 /turf/open/floor/plating,
@@ -45068,10 +45070,6 @@
 /obj/structure/disposalpipe/junction,
 /turf/open/floor/plating,
 /area/maintenance/aft)
-"jGr" = (
-/obj/structure/lattice,
-/turf/open/floor/plating/snowed/icemoon,
-/area/icemoon/surface/outdoors)
 "jHt" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -46831,15 +46829,7 @@
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/button/door{
-	id = "commissarydoor";
-	name = "Commissary Door Lock";
-	normaldoorcontrol = 1;
-	pixel_x = 26;
-	pixel_y = -6;
-	specialfunctions = 4
+	dir = 10
 	},
 /turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
@@ -48441,13 +48431,10 @@
 /turf/open/floor/iron,
 /area/cargo/office)
 "nrB" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
-/obj/machinery/disposal/bin,
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark,
 /area/hallway/primary/central)
 "nrW" = (
@@ -48712,7 +48699,9 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral,
-/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
 /turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
 "nCW" = (
@@ -49110,9 +49099,6 @@
 "nXi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /turf/closed/wall,
 /area/commons/vacant_room/commissary)
 "nXy" = (
@@ -49907,7 +49893,12 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/turf/closed/wall,
+/obj/machinery/door/airlock{
+	id_tag = "commissarydoor";
+	name = "Commissary";
+	req_access_txt = "12"
+	},
+/turf/open/floor/plating,
 /area/maintenance/port)
 "oXL" = (
 /obj/effect/turf_decal/tile/blue{
@@ -50412,13 +50403,10 @@
 /area/security/detectives_office)
 "pvk" = (
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock{
-	id_tag = "commissarydoor";
-	name = "Commissary"
+/obj/structure/disposalpipe/segment{
+	dir = 8
 	},
-/obj/machinery/door/firedoor,
-/obj/structure/cable,
-/turf/open/floor/iron/dark,
+/turf/closed/wall,
 /area/commons/vacant_room/commissary)
 "pwd" = (
 /obj/structure/flora/ausbushes/fullgrass{
@@ -50980,7 +50968,8 @@
 /obj/machinery/atmospherics/pipe/simple/yellow/visible{
 	dir = 5
 	},
-/turf/open/floor/plating/asteroid/snow/icemoon,
+/obj/structure/lattice,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "pUe" = (
 /obj/structure/disposalpipe/segment,
@@ -51980,7 +51969,10 @@
 /turf/open/floor/iron/dark,
 /area/security/brig)
 "rbC" = (
-/obj/structure/cable,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/obj/machinery/disposal/bin,
 /turf/open/floor/iron/dark,
 /area/hallway/primary/central)
 "rcG" = (
@@ -54863,7 +54855,7 @@
 /area/security/brig)
 "uli" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
-/turf/open/floor/plating/asteroid/snow/icemoon,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "ulo" = (
 /obj/effect/turf_decal/delivery,
@@ -55828,7 +55820,8 @@
 /area/security/prison)
 "vrP" = (
 /obj/machinery/atmospherics/pipe/simple/yellow/visible,
-/turf/open/floor/plating/asteroid/snow/icemoon,
+/obj/structure/lattice,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "vvP" = (
 /obj/machinery/light/small/broken,
@@ -57791,7 +57784,7 @@
 "xrl" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/structure/lattice,
-/turf/open/floor/plating/snowed/icemoon,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "xrs" = (
 /obj/structure/disposalpipe/segment{
@@ -57846,7 +57839,17 @@
 /obj/item/wrench,
 /obj/item/screwdriver,
 /obj/structure/rack,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
 "xun" = (
 /obj/structure/bodycontainer/morgue,
@@ -74531,9 +74534,9 @@ alU
 vvZ
 aol
 alU
-aHt
-asU
-aYj
+blq
+blq
+blq
 alU
 asK
 azF
@@ -74788,9 +74791,9 @@ apP
 ajw
 aol
 alU
-asU
-bbV
-boP
+blq
+blq
+blq
 alU
 miW
 azF
@@ -75045,9 +75048,9 @@ aol
 ajK
 aol
 alU
-aRo
-aHt
-aYj
+blq
+blq
+blq
 alU
 asK
 azF
@@ -76325,7 +76328,7 @@ alU
 ank
 alU
 alU
-boP
+blq
 alU
 amC
 amC
@@ -76582,7 +76585,7 @@ amD
 anm
 amC
 ali
-boP
+blq
 ali
 amC
 alU
@@ -76839,7 +76842,7 @@ amC
 amC
 amC
 ali
-boP
+blq
 ali
 amC
 alU
@@ -77096,7 +77099,7 @@ amE
 ann
 amC
 alU
-boP
+blq
 ali
 amC
 alU
@@ -77353,7 +77356,7 @@ alU
 alU
 ank
 alU
-boP
+blq
 alU
 amC
 amC
@@ -77610,7 +77613,7 @@ amF
 alU
 amC
 alU
-boP
+blq
 alU
 alU
 alU
@@ -77867,7 +77870,7 @@ alU
 alU
 amC
 alU
-boP
+odL
 ufm
 alU
 arO
@@ -78125,7 +78128,7 @@ ali
 anK
 ali
 ufm
-boP
+blq
 alU
 alU
 alU
@@ -78382,8 +78385,8 @@ alU
 amC
 alU
 ufm
-boP
-boP
+blq
+odL
 ufm
 alU
 ali
@@ -78638,13 +78641,13 @@ boP
 ali
 aKY
 ali
-boP
-boP
+odL
+odL
 ufm
-boP
-boP
-boP
-boP
+blq
+blq
+blq
+blq
 aqQ
 neA
 ayB
@@ -78895,13 +78898,13 @@ boP
 ali
 amC
 ali
-boP
+blq
 ufm
-boP
-boP
-boP
-boP
-boP
+odL
+blq
+blq
+blq
+blq
 aqQ
 axq
 ayB
@@ -79155,10 +79158,10 @@ alU
 alU
 alU
 ufm
-boP
-boP
-boP
-boP
+blq
+blq
+blq
+blq
 aqQ
 axq
 ayB
@@ -80980,7 +80983,7 @@ aTI
 aPK
 bji
 wBR
-aSg
+aHt
 aYf
 bbU
 hSa
@@ -83296,7 +83299,7 @@ aJq
 aJq
 aJq
 aJq
-bBi
+aJq
 aJq
 dMb
 bkS
@@ -90798,7 +90801,7 @@ bOd
 cfN
 cfN
 bLK
-ufm
+blq
 bOh
 bOh
 bOh
@@ -91312,7 +91315,7 @@ cfi
 bRH
 cgV
 bMQ
-ufm
+odL
 buw
 ckU
 clT
@@ -91569,7 +91572,7 @@ cez
 cfQ
 cgY
 ciu
-buv
+aYj
 ckb
 ckW
 clU
@@ -92340,7 +92343,7 @@ bOd
 cfP
 cgZ
 bMQ
-ufm
+odL
 buw
 ckX
 clV
@@ -92597,7 +92600,7 @@ bOe
 cfQ
 chb
 ciu
-buv
+aYj
 ckb
 ckZ
 clW
@@ -92854,7 +92857,7 @@ bUL
 cfP
 bOd
 bMQ
-ufm
+odL
 bOh
 bOh
 bOh
@@ -93117,7 +93120,7 @@ clb
 clY
 clZ
 bOh
-boP
+blq
 boP
 boP
 boP
@@ -93368,13 +93371,13 @@ bUR
 cfT
 chc
 bMQ
-ufm
+odL
 buw
 cla
 cBP
 cmW
 bOh
-boP
+blq
 boP
 bvM
 boP
@@ -93631,7 +93634,7 @@ clc
 clZ
 clZ
 bOh
-boP
+blq
 boP
 boP
 boP
@@ -93882,14 +93885,14 @@ bLK
 bLK
 bxF
 bLK
-ufm
+blq
 bOh
 bOh
 bOh
 bOh
 bOh
-boP
-boP
+blq
+blq
 boP
 boP
 bJW
@@ -94118,13 +94121,13 @@ hTU
 hxs
 bzs
 ioQ
-boP
+blq
 enj
-jGr
+odL
 buJ
-jGr
+odL
 enj
-jGr
+odL
 buJ
 bzm
 bzn
@@ -94139,13 +94142,13 @@ uli
 bxr
 bxX
 bxr
-bAi
-bAi
-bAi
-bAi
-bAi
-bAi
-bAi
+uli
+uli
+uli
+uli
+uli
+uli
+uli
 bAi
 bAi
 bAi
@@ -94392,7 +94395,7 @@ bPj
 buw
 bPj
 bOh
-boP
+blq
 bMK
 chg
 bMK
@@ -94400,8 +94403,8 @@ boP
 boP
 boP
 boP
-boP
-boP
+blq
+blq
 boP
 boP
 boP
@@ -94649,7 +94652,7 @@ cbI
 ccC
 cdD
 bOh
-boP
+blq
 bMQ
 bye
 bMK
@@ -94906,7 +94909,7 @@ cbH
 ccB
 cbH
 bOh
-boP
+blq
 bMQ
 bfd
 bzp
@@ -95163,7 +95166,7 @@ cbH
 ccD
 cbH
 bOh
-boP
+blq
 bMQ
 bfl
 bMK
@@ -95420,7 +95423,7 @@ bOh
 bOh
 bOh
 bOh
-boP
+blq
 bMK
 bfl
 bMK
@@ -95661,23 +95664,23 @@ hxs
 bzs
 foC
 vrP
+aRo
+aRo
+aRo
 vrP
-vrP
-vrP
-vrP
-vrP
-vrP
-vrP
-vrP
-vrP
-vrP
-vrP
+aRo
+aRo
+aRo
+aRo
+aRo
+aRo
+aRo
 pTY
-boP
-boP
-boP
-boP
-boP
+blq
+blq
+blq
+odL
+blq
 bxo
 byv
 bzq
@@ -95925,7 +95928,7 @@ bzs
 bzs
 bPn
 bzs
-bus
+bzs
 bzs
 bzs
 bPn
@@ -96182,7 +96185,7 @@ nEs
 nEs
 qTC
 bzs
-bAw
+bZN
 bzs
 buA
 bAw
@@ -96439,7 +96442,7 @@ bzs
 bBR
 ubj
 bzs
-but
+bAw
 bzs
 bAw
 bZM
@@ -96956,7 +96959,7 @@ bAw
 bAw
 bAw
 bAw
-bZN
+bAw
 caK
 bzs
 ccE

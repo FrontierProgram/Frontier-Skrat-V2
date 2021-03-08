@@ -11688,9 +11688,6 @@
 /turf/open/floor/iron,
 /area/service/bar)
 "aQd" = (
-/obj/machinery/newscaster{
-	pixel_y = -28
-	},
 /obj/structure/chair/sofa/right{
 	dir = 1
 	},

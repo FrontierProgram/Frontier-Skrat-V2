@@ -2259,7 +2259,7 @@
 /obj/machinery/door/airlock/command,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "fS" = (
 /obj/machinery/button/door{
 	id = "xenobio4";
@@ -2366,7 +2366,7 @@
 /area/mine/laborcamp)
 "gq" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "gs" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -2416,7 +2416,7 @@
 /obj/structure/dresser,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "gK" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 6
@@ -2477,7 +2477,7 @@
 /obj/machinery/light/broken,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "ha" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Xenobiology Exit";
@@ -2494,7 +2494,7 @@
 /obj/machinery/light/broken,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "hj" = (
 /obj/machinery/atmospherics/components/unary/passive_vent{
 	dir = 1
@@ -3158,7 +3158,7 @@
 /obj/machinery/door/airlock/external/glass,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "lg" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 6
@@ -3270,7 +3270,7 @@
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "lR" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood{
@@ -3487,7 +3487,7 @@
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "nM" = (
 /turf/closed/wall,
 /area/mine/mechbay)
@@ -3665,7 +3665,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "oU" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8
@@ -5059,7 +5059,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "xB" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
@@ -5162,7 +5162,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "yt" = (
 /obj/structure/window/reinforced/spawner/east,
 /turf/open/floor/iron/dark,
@@ -5236,7 +5236,7 @@
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "yU" = (
 /obj/structure/table/glass,
 /obj/item/food/grown/wheat,
@@ -5498,7 +5498,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "AA" = (
 /obj/item/trash/syndi_cakes,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
@@ -5679,7 +5679,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/bedsheet/dorms,
 /turf/open/floor/carpet,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "BE" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 5
@@ -6241,7 +6241,7 @@
 "EU" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "EW" = (
 /obj/machinery/camera{
 	c_tag = "Port Hallway - Lower, East";
@@ -6705,7 +6705,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "Hx" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
@@ -6880,7 +6880,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "Iv" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -7006,7 +7006,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "Jm" = (
 /obj/structure/sink{
 	pixel_y = 30
@@ -7261,11 +7261,11 @@
 /obj/machinery/suit_storage_unit/open,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "KC" = (
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "KD" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "xenobio2";
@@ -7323,7 +7323,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "La" = (
 /obj/structure/chair/sofa/bench/left{
 	dir = 4
@@ -7352,7 +7352,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "Lg" = (
 /obj/item/clothing/under/color/jumpskirt/random,
 /obj/effect/turf_decal/tile/brown{
@@ -8278,7 +8278,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "Qv" = (
 /turf/closed/wall/r_wall,
 /area/science/xenobiology)
@@ -8543,7 +8543,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "St" = (
 /obj/structure/table/glass,
 /obj/item/cultivator,
@@ -9132,7 +9132,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "Vo" = (
 /obj/item/bikehorn{
 	color = "#000";
@@ -9213,7 +9213,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "VV" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
@@ -9874,7 +9874,7 @@
 "Zs" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/unpowered)
+/area/ruin/powered)
 "Zx" = (
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
 	dir = 8

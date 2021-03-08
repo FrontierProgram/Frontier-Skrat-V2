@@ -1027,6 +1027,12 @@
 	},
 /turf/open/floor/iron,
 /area/mine/production)
+"dc" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "dd" = (
 /obj/structure/closet/emcloset,
 /obj/effect/spawner/lootdrop/maintenance/two,
@@ -2051,6 +2057,12 @@
 /obj/item/flashlight,
 /turf/open/floor/iron,
 /area/mine/living_quarters)
+"fA" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "fB" = (
 /obj/structure/displaycase,
 /turf/open/floor/iron,
@@ -2376,6 +2388,10 @@
 /obj/machinery/camera/autoname,
 /turf/open/floor/iron/dark,
 /area/medical/morgue)
+"gB" = (
+/obj/structure/dresser,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "gG" = (
 /obj/item/pickaxe,
 /obj/effect/decal/cleanable/blood,
@@ -2418,6 +2434,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/mine/laborcamp)
+"gT" = (
+/obj/item/chair/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "gW" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -2442,6 +2464,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/medical/morgue)
+"hh" = (
+/obj/structure/rack,
+/obj/item/circuitboard/machine/ore_redemption,
+/obj/item/assembly/igniter,
+/obj/item/storage/box/stockparts/basic,
+/obj/item/stack/sheet/iron/ten,
+/turf/open/floor/iron,
+/area/maintenance/space_hut/cabin)
 "hj" = (
 /obj/machinery/atmospherics/components/unary/passive_vent{
 	dir = 1
@@ -2539,6 +2569,16 @@
 "hO" = (
 /turf/closed/wall/r_wall,
 /area/medical/chemistry)
+"hR" = (
+/obj/structure/cable,
+/obj/machinery/power/port_gen/pacman{
+	anchored = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/maintenance/space_hut/cabin)
 "hT" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -2622,6 +2662,11 @@
 "iu" = (
 /turf/closed/wall,
 /area/medical/morgue)
+"iv" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/maintenance/space_hut/cabin)
 "ix" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/camera{
@@ -2631,6 +2676,14 @@
 	},
 /turf/open/floor/iron,
 /area/mine/laborcamp)
+"iy" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/drip{
+	pixel_x = 16;
+	pixel_y = 5
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "iB" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 10
@@ -2813,6 +2866,7 @@
 /obj/structure/sign/departments/xenobio{
 	pixel_x = -32
 	},
+/obj/structure/trash_pile,
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "jw" = (
@@ -2958,6 +3012,9 @@
 	},
 /turf/open/floor/iron,
 /area/science/xenobiology)
+"kk" = (
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "km" = (
 /obj/structure/sink{
 	dir = 8;
@@ -2999,12 +3056,24 @@
 "kw" = (
 /turf/open/openspace/icemoon,
 /area/commons/storage/mining)
+"kx" = (
+/obj/effect/turf_decal/vg_decals/department/mining{
+	color = "#fc0303";
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "ky" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/mech_bay_recharge_floor,
 /area/mine/mechbay)
+"kz" = (
+/obj/machinery/door/airlock/wood,
+/obj/effect/decal/cleanable/blood/footprints,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "kB" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -3073,6 +3142,10 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/commons/fitness)
+"ld" = (
+/obj/structure/trash_pile,
+/turf/open/floor/iron,
+/area/maintenance/space_hut/cabin)
 "lg" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 6
@@ -3167,6 +3240,9 @@
 	},
 /turf/open/floor/wood,
 /area/commons/fitness)
+"lI" = (
+/turf/open/floor/carpet,
+/area/maintenance/space_hut/cabin)
 "lL" = (
 /obj/structure/sign/warning/xeno_mining,
 /turf/closed/wall,
@@ -3335,6 +3411,9 @@
 	},
 /turf/open/floor/iron,
 /area/mine/laborcamp)
+"nv" = (
+/turf/closed/wall/mineral/wood,
+/area/maintenance/space_hut/cabin)
 "nD" = (
 /obj/structure/flora/junglebush/c,
 /turf/open/floor/grass,
@@ -3388,6 +3467,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/mine/laborcamp)
+"nW" = (
+/obj/machinery/door/airlock/wood,
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "nX" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
@@ -3619,6 +3705,15 @@
 	},
 /turf/open/floor/iron,
 /area/mine/laborcamp)
+"pj" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/cold{
+	initial_gas_mix = "ICEMOON_ATMOS";
+	planetary_atmos = 1
+	},
+/area/icemoon/underground/explored)
 "pl" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/iron,
@@ -3702,6 +3797,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/mine/laborcamp)
+"pK" = (
+/obj/structure/bed/dogbed,
+/turf/open/floor/carpet,
+/area/maintenance/space_hut/cabin)
 "pU" = (
 /obj/machinery/door/airlock/research/glass{
 	name = "Mining Mech Bay";
@@ -3721,6 +3820,10 @@
 /obj/machinery/hydroponics/soil,
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"pX" = (
+/obj/effect/decal/cleanable/blood/gibs/bubblegum,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "pY" = (
 /obj/structure/grille,
 /turf/open/floor/plating,
@@ -3906,6 +4009,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
+"rd" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plating/ice/icemoon,
+/area/icemoon/underground/explored)
 "rj" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -3957,6 +4066,12 @@
 "rG" = (
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
+"rK" = (
+/obj/structure/closet,
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/maintenance/space_hut/cabin)
 "rQ" = (
 /turf/open/floor/iron/dark,
 /area/hallway/primary/port)
@@ -4171,6 +4286,14 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/mine/laborcamp/security)
+"sO" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/ringbox/diamond{
+	desc = "A tiny box covered in soft red felt made for holding rings. It looks long untouched...";
+	name = "dusty ring box"
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "sS" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line,
 /obj/structure/cable,
@@ -4202,6 +4325,9 @@
 /obj/effect/turf_decal/mining,
 /turf/open/floor/plating/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
+"ta" = (
+/turf/open/floor/iron,
+/area/maintenance/space_hut/cabin)
 "tb" = (
 /obj/machinery/door/airlock/external{
 	req_access_txt = "19"
@@ -4327,6 +4453,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/mine/laborcamp)
+"tN" = (
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "tP" = (
 /obj/effect/turf_decal/bot_white,
 /obj/effect/turf_decal/tile/neutral{
@@ -4432,6 +4564,13 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/science/xenobiology)
+"uu" = (
+/obj/structure/table/wood,
+/obj/machinery/chem_dispenser/drinks/beer{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "uz" = (
 /obj/machinery/door/window/northleft{
 	dir = 4;
@@ -4571,6 +4710,10 @@
 	},
 /turf/open/floor/plating,
 /area/mine/laborcamp)
+"vz" = (
+/obj/structure/bed,
+/turf/open/floor/carpet,
+/area/maintenance/space_hut/cabin)
 "vF" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 8
@@ -4612,6 +4755,10 @@
 	},
 /turf/open/floor/iron,
 /area/commons/storage/primary)
+"vU" = (
+/obj/effect/decal/cleanable/blood/footprints,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "vW" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -5000,6 +5147,11 @@
 	},
 /turf/open/floor/iron,
 /area/commons/fitness)
+"yO" = (
+/obj/structure/rack/shelf,
+/obj/item/stack/sheet/cloth/five,
+/turf/open/floor/iron,
+/area/maintenance/space_hut/cabin)
 "yU" = (
 /obj/structure/table/glass,
 /obj/item/food/grown/wheat,
@@ -5082,6 +5234,10 @@
 	},
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
+"zr" = (
+/obj/effect/decal/cleanable/blood/footprints,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/underground/explored)
 "zs" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
@@ -5121,6 +5277,10 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"zC" = (
+/obj/structure/chair/stool/bar,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "zD" = (
 /turf/closed/wall,
 /area/service/hydroponics/garden)
@@ -5203,6 +5363,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/mine/laborcamp)
+"Ad" = (
+/obj/effect/turf_decal/vg_decals/department/mining{
+	color = "#fc0303";
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "Ah" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 4
@@ -5261,6 +5428,10 @@
 /obj/machinery/vending/assist,
 /turf/open/floor/iron,
 /area/commons/storage/primary)
+"AJ" = (
+/obj/structure/closet,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "AL" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 6
@@ -5272,6 +5443,13 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/iron,
 /area/commons/fitness)
+"AP" = (
+/obj/structure/table/wood,
+/obj/machinery/chem_dispenser/drinks{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "AQ" = (
 /obj/machinery/light{
 	dir = 8
@@ -5283,6 +5461,13 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
+"AR" = (
+/obj/machinery/power/apc/auto_name/north{
+	start_charge = 0
+	},
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/maintenance/space_hut/cabin)
 "AT" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/open/floor/plating,
@@ -5338,6 +5523,10 @@
 	},
 /turf/open/floor/iron,
 /area/mine/production)
+"Bg" = (
+/obj/structure/rack/shelf,
+/turf/open/floor/iron,
+/area/maintenance/space_hut/cabin)
 "Bi" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 9
@@ -5541,6 +5730,12 @@
 	},
 /turf/open/floor/iron,
 /area/mine/living_quarters)
+"CA" = (
+/turf/open/floor/wood/cold{
+	initial_gas_mix = "ICEMOON_ATMOS";
+	planetary_atmos = 1
+	},
+/area/icemoon/underground/explored)
 "CD" = (
 /turf/closed/wall,
 /area/commons/fitness/locker_room)
@@ -5917,6 +6112,12 @@
 	},
 /turf/open/floor/iron,
 /area/mine/laborcamp)
+"EU" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood{
+	icon_state = "wood-broken3"
+	},
+/area/maintenance/space_hut/cabin)
 "EW" = (
 /obj/machinery/camera{
 	c_tag = "Port Hallway - Lower, East";
@@ -6059,6 +6260,11 @@
 	},
 /turf/open/floor/plating,
 /area/science/xenobiology)
+"FJ" = (
+/obj/structure/table/wood,
+/obj/item/toy/crayon/spraycan,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "FK" = (
 /obj/machinery/button/door{
 	id = "misclab";
@@ -6198,6 +6404,10 @@
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
 /area/mine/laborcamp)
+"Gx" = (
+/obj/structure/trash_pile,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "Gy" = (
 /obj/machinery/computer/mechpad{
 	dir = 8
@@ -6234,6 +6444,13 @@
 	},
 /turf/open/floor/iron,
 /area/mine/laborcamp/security)
+"GJ" = (
+/obj/effect/turf_decal/vg_decals/department/mining{
+	color = "#fc0303";
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "GL" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -6372,6 +6589,10 @@
 /obj/structure/flora/rock/pile/icy,
 /turf/open/floor/plating/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
+"Hz" = (
+/obj/item/chair/wood,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "HB" = (
 /obj/effect/spawner/randomcolavend,
 /obj/structure/railing{
@@ -6622,6 +6843,11 @@
 /obj/structure/table,
 /turf/open/floor/engine,
 /area/science/xenobiology)
+"Jh" = (
+/obj/structure/rack,
+/obj/item/storage/toolbox/mechanical,
+/turf/open/floor/iron,
+/area/maintenance/space_hut/cabin)
 "Jm" = (
 /obj/structure/sink{
 	pixel_y = 30
@@ -6634,6 +6860,12 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/iron,
 /area/mine/laborcamp)
+"Jq" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plating/ice/icemoon,
+/area/icemoon/underground/explored)
 "Js" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass,
@@ -6963,6 +7195,13 @@
 	},
 /turf/open/floor/iron,
 /area/commons/locker)
+"Ln" = (
+/obj/effect/decal/cleanable/blood/drip{
+	pixel_x = -3;
+	pixel_y = 14
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "Lp" = (
 /turf/open/floor/iron/showroomfloor,
 /area/commons/fitness/locker_room)
@@ -7177,6 +7416,12 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"My" = (
+/obj/effect/turf_decal/vg_decals/department/mining{
+	color = "#fc0303"
+	},
+/turf/open/floor/iron,
+/area/maintenance/space_hut/cabin)
 "MA" = (
 /obj/machinery/camera{
 	c_tag = "Xeno Test Chamber Enterance";
@@ -7220,6 +7465,11 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/iron/dark,
 /area/medical/morgue)
+"MM" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/structure/chair/stool/bar,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "MO" = (
 /obj/structure/window/spawner/west,
 /turf/open/floor/iron,
@@ -7228,6 +7478,11 @@
 /mob/living/simple_animal/slime,
 /turf/open/floor/engine,
 /area/science/xenobiology)
+"MU" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/maintenance/space_hut/cabin)
 "MV" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/iron/white,
@@ -7298,6 +7553,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/science/xenobiology)
+"Nn" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/maintenance/space_hut/cabin)
 "No" = (
 /obj/machinery/camera{
 	c_tag = "Garden";
@@ -7346,6 +7606,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/mine/laborcamp)
+"Nz" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 5
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "NB" = (
 /obj/structure/bodycontainer/morgue,
 /obj/effect/decal/cleanable/dirt,
@@ -7365,6 +7631,11 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"NH" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken2"
+	},
+/area/maintenance/space_hut/cabin)
 "NI" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/condiment/saltshaker{
@@ -7506,6 +7777,15 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/science/xenobiology)
+"Oz" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "OD" = (
 /obj/machinery/computer/mech_bay_power_console,
 /obj/structure/cable,
@@ -7533,6 +7813,11 @@
 /obj/machinery/light,
 /turf/open/floor/iron,
 /area/commons/fitness)
+"OI" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "OM" = (
 /obj/machinery/holopad,
 /turf/open/floor/iron/white,
@@ -7715,6 +8000,15 @@
 "PG" = (
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/underground/explored)
+"PH" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/cold{
+	initial_gas_mix = "ICEMOON_ATMOS";
+	planetary_atmos = 1
+	},
+/area/icemoon/underground/explored)
 "PM" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -7743,6 +8037,12 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/mine/laborcamp)
+"PZ" = (
+/obj/effect/turf_decal/vg_decals/department/mining{
+	color = "#fc0303"
+	},
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "Qb" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -7901,6 +8201,13 @@
 	},
 /turf/open/floor/iron,
 /area/mine/laborcamp)
+"QY" = (
+/obj/effect/turf_decal/vg_decals/department/mining{
+	color = "#fc0303";
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/maintenance/space_hut/cabin)
 "Rb" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 1
@@ -7925,6 +8232,17 @@
 	},
 /turf/open/floor/iron/dark,
 /area/mine/storage)
+"Rt" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
+"Ru" = (
+/obj/effect/decal/cleanable/blood/drip{
+	pixel_x = 9;
+	pixel_y = 9
+	},
+/turf/open/floor/iron,
+/area/maintenance/space_hut/cabin)
 "Rx" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -7964,6 +8282,10 @@
 	},
 /turf/open/floor/iron,
 /area/mine/production)
+"RI" = (
+/obj/structure/closet,
+/turf/open/floor/iron,
+/area/maintenance/space_hut/cabin)
 "RN" = (
 /obj/machinery/power/shieldwallgen/xenobiologyaccess,
 /obj/structure/cable,
@@ -8590,6 +8912,12 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/science/xenobiology)
+"Ve" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/maintenance/space_hut/cabin)
 "Vg" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
@@ -8689,6 +9017,11 @@
 	},
 /turf/open/floor/iron,
 /area/mine/living_quarters)
+"VT" = (
+/obj/machinery/door/airlock/wood,
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "VV" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
@@ -8768,6 +9101,9 @@
 /obj/structure/window/reinforced,
 /turf/open/floor/engine,
 /area/science/xenobiology)
+"Wv" = (
+/turf/open/floor/plating/ice/icemoon,
+/area/icemoon/underground/explored)
 "Wy" = (
 /obj/machinery/light{
 	dir = 8
@@ -8844,6 +9180,10 @@
 	},
 /turf/open/floor/iron,
 /area/commons/fitness)
+"WL" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/maintenance/space_hut/cabin)
 "WM" = (
 /obj/machinery/shower{
 	pixel_y = 22
@@ -8930,6 +9270,10 @@
 	},
 /turf/open/floor/iron,
 /area/commons/fitness)
+"Xi" = (
+/obj/machinery/space_heater,
+/turf/open/floor/iron,
+/area/maintenance/space_hut/cabin)
 "Xj" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -9057,6 +9401,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/chemistry)
+"Ya" = (
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/maintenance/space_hut/cabin)
 "Yh" = (
 /obj/structure/chair/stool{
 	pixel_y = 8
@@ -9064,6 +9412,10 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/iron,
 /area/commons/storage/primary)
+"Yi" = (
+/obj/machinery/door/airlock/wood,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "Yk" = (
 /obj/structure/cable,
 /obj/machinery/door/poddoor/preopen{
@@ -9147,6 +9499,12 @@
 	},
 /turf/open/floor/iron,
 /area/mine/laborcamp)
+"Yz" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/maintenance/space_hut/cabin)
 "YA" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -9315,6 +9673,10 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron,
 /area/commons/locker)
+"Zt" = (
+/obj/structure/chair/wood,
+/turf/open/floor/wood,
+/area/maintenance/space_hut/cabin)
 "Zx" = (
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
 	dir = 8
@@ -9616,12 +9978,12 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -9873,13 +10235,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -10130,13 +10492,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -10388,13 +10750,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -10646,13 +11008,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -10903,13 +11265,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -11160,14 +11522,14 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -11418,13 +11780,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -11676,13 +12038,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -11933,14 +12295,14 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -12191,13 +12553,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -12448,6 +12810,14 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -12458,24 +12828,16 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+nv
+nv
+nv
+nv
+nv
+nv
+nv
+nv
+nv
 ak
 ak
 ak
@@ -12706,6 +13068,14 @@ ak
 ak
 ak
 ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -12714,25 +13084,17 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+nv
+kk
+kk
+Rt
+kk
+uu
+Oz
+AP
+nv
 ak
 ak
 ak
@@ -12963,6 +13325,14 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -12971,25 +13341,17 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+WL
+kk
+kk
+kk
+kk
+kk
+kk
+kk
+nv
 ak
 ak
 ak
@@ -13221,32 +13583,32 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Fp
+WL
+kk
+kk
+OI
+kk
+kk
+kk
+kk
+nv
 ak
 ak
 ak
@@ -13479,31 +13841,31 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Fp
+WL
+kk
+kk
+Rt
+EU
+Rt
+OI
+Rt
+nv
 ak
 ak
 ak
@@ -13737,30 +14099,30 @@ ak
 ak
 ak
 ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Fp
+WL
+kk
+kk
+MM
+zC
+zC
+zC
+zC
+nv
 ak
 ak
 ak
@@ -13994,30 +14356,30 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Fp
+Fp
+WL
+kk
+kk
+kk
+Ad
+kk
+kk
+kk
+nv
 ak
 ak
 ak
@@ -14252,29 +14614,29 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Fp
+Fp
+Fp
+nv
+Hz
+Yz
+fA
+dc
+Zt
+Rt
+gT
+nv
 ak
 ak
 ak
@@ -14510,28 +14872,28 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+nv
+nv
+nv
+nv
+nW
+nv
+nv
+nv
+nv
 ak
 ak
 ak
@@ -14768,27 +15130,27 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+nv
+kk
+kk
+kk
+dc
+kk
+GJ
+kk
+nv
 ak
 ak
 ak
@@ -15026,26 +15388,26 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+nv
+nv
+nv
+nv
+nv
+nv
+kk
+Nn
+PZ
+Nz
+Ve
+kk
+kk
+nv
 ak
 ak
 ak
@@ -15283,27 +15645,27 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Jq
+Jq
+Jq
+Fp
+Fp
+WL
+gB
+kk
+NH
+Gx
+nv
+kk
+kk
+tN
+kk
+kk
+kk
+iy
+nv
+Fp
 ak
 ak
 ak
@@ -15539,29 +15901,29 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+pj
+pj
+pj
+Fp
+Fp
+WL
+kk
+kk
+GJ
+kk
+Yi
+kk
+kk
+sO
+FJ
+Rt
+Ln
+vU
+kz
+zr
+Fp
 ak
 ak
 ak
@@ -15794,30 +16156,30 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Fp
+Fp
+CA
+CA
+CA
+Fp
+Fp
+WL
+kk
+kk
+kk
+kk
+nv
+kk
+iv
+kk
+kk
+Hz
+kk
+kk
+nv
+Fp
 ak
 ak
 ak
@@ -16047,33 +16409,33 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+PH
+PH
+PH
+Fp
+Fp
+WL
+lI
+lI
+kk
+rK
+nv
+kk
+pX
+kk
+kx
+kk
+NH
+kk
+nv
 ak
 ak
 ak
@@ -16302,35 +16664,35 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+rd
+rd
+rd
+Fp
+Fp
+WL
+vz
+pK
+kk
+AJ
+nv
+kk
+kk
+kk
+kk
+kk
+kk
+kk
+nv
 ak
 ak
 ak
@@ -16557,37 +16919,37 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Fp
+Fp
+Fp
 ak
 ak
 ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+nv
+nv
+nv
+nv
+nv
+nv
+nv
+nv
+nv
+VT
+nv
+nv
+nv
+nv
 ak
 ak
 ak
@@ -16799,6 +17161,24 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
 ak
 ak
 ak
@@ -16806,45 +17186,27 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
+Fp
+Fp
+Fp
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+nv
+MU
+Ya
+Ya
+Ya
+Ya
+Ya
+hR
+nv
 ak
 ak
 ak
@@ -17048,6 +17410,30 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
 ak
 ak
 ak
@@ -17057,51 +17443,27 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+nv
+Ya
+ta
+ta
+Ru
+ta
+My
+ta
+nv
 ak
 ak
 ak
@@ -17298,6 +17660,25 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
 ak
 ak
 ak
@@ -17319,46 +17700,27 @@ ak
 ak
 ak
 ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Fp
+Fp
+nv
+AR
+ta
+ta
+ta
+ta
+ta
+ta
+nv
 ak
 ak
 ak
@@ -17551,6 +17913,22 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
 ak
 ak
 ak
@@ -17579,43 +17957,27 @@ ak
 ak
 ak
 ak
+Fp
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+nv
+ld
+ta
+ta
+ta
+ta
+ta
+Jh
+nv
 ak
 ak
 ak
@@ -17806,7 +18168,19 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
 ak
+Fp
 ak
 ak
 ak
@@ -17839,40 +18213,28 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+nv
+Xi
+ta
+ta
+QY
+ta
+ta
+hh
+nv
 ak
 ak
 ak
@@ -18061,6 +18423,10 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Fp
+Fp
 ak
 ak
 ak
@@ -18104,6 +18470,12 @@ ak
 ak
 ak
 ak
+Fp
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -18111,25 +18483,15 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+nv
+RI
+ta
+ta
+ta
+ta
+ta
+yO
+nv
 ak
 ak
 ak
@@ -18315,6 +18677,11 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Fp
+Fp
+Fp
 ak
 ak
 ak
@@ -18359,6 +18726,12 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -18367,26 +18740,15 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+nv
+RI
+ta
+ta
+ta
+ta
+ta
+Bg
+nv
 ak
 ak
 ak
@@ -18571,8 +18933,9 @@ ak
 ak
 ak
 ak
-ak
+Fp
 PG
+Fp
 ak
 ak
 ak
@@ -18619,6 +18982,12 @@ ak
 ak
 ak
 ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -18628,22 +18997,15 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+nv
+nv
+nv
+nv
+nv
+nv
+nv
+nv
+nv
 ak
 ak
 ak
@@ -18876,13 +19238,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -19133,12 +19495,12 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -19390,12 +19752,12 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -19647,12 +20009,12 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -19904,12 +20266,12 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -20161,13 +20523,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -20418,13 +20780,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -20675,14 +21037,14 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -20932,14 +21294,14 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -21190,13 +21552,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -21448,12 +21810,12 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -21705,13 +22067,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -21963,12 +22325,12 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -22221,12 +22583,12 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -22478,12 +22840,12 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -22735,13 +23097,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -22992,13 +23354,13 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -23250,16 +23612,16 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Fp
+Fp
+Fp
+Fp
+Fp
 ak
 ak
 ak
@@ -23508,16 +23870,16 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Fp
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -23764,18 +24126,18 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -24021,19 +24383,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -24277,22 +24639,22 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
+Fp
 ak
 ak
 ak
@@ -24533,23 +24895,23 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -24790,24 +25152,24 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -25047,24 +25409,24 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -25304,24 +25666,24 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -25561,25 +25923,25 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -25818,25 +26180,25 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -26076,24 +26438,24 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -26333,24 +26695,24 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -26591,22 +26953,22 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
 ak
 ak
 ak
@@ -26849,21 +27211,21 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -27108,18 +27470,18 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Fp
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Fp
+Fp
 ak
 ak
 ak
@@ -27367,15 +27729,15 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
+Fp
 ak
 ak
 ak
@@ -48066,7 +48428,7 @@ ak
 ak
 ak
 GL
-Fp
+PG
 GL
 ak
 ak

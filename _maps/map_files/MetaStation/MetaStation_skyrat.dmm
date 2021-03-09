@@ -8733,18 +8733,15 @@
 /turf/open/floor/iron,
 /area/construction/storage_wing)
 "aMB" = (
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 4
-	},
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+/obj/machinery/vending/tool,
+/obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
-	dir = 8
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
 	},
-/turf/open/floor/iron,
-/area/construction/storage_wing)
+/turf/open/floor/iron/dark,
+/area/commons/storage/primary)
 "aMG" = (
 /obj/structure/table,
 /obj/item/ai_module/core/full/asimov,
@@ -9242,22 +9239,11 @@
 /turf/open/floor/iron,
 /area/hallway/primary/central)
 "aPL" = (
-/obj/structure/rack,
-/obj/item/flashlight,
-/obj/item/clothing/gloves/color/fyellow,
-/obj/item/book/manual/wiki/engineering_hacking{
-	pixel_x = -3;
-	pixel_y = 3
+/obj/machinery/vending/assist,
+/obj/structure/sign/poster/contraband/missing_gloves{
+	pixel_y = 32
 	},
-/obj/item/book/manual/wiki/engineering_guide,
-/obj/item/book/manual/wiki/engineering_construction{
-	pixel_x = 3;
-	pixel_y = -3
-	},
-/obj/item/airlock_painter,
-/obj/item/crowbar,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/commons/storage/primary)
 "aPS" = (
 /obj/structure/rack,
@@ -9533,34 +9519,6 @@
 /obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/closed/wall/r_wall,
 /area/maintenance/disposal/incinerator)
-"aSo" = (
-/obj/structure/noticeboard{
-	pixel_y = 31
-	},
-/obj/item/reagent_containers/food/condiment/milk{
-	pixel_x = 6;
-	pixel_y = 8
-	},
-/obj/item/reagent_containers/food/condiment/sugar{
-	pixel_y = 4
-	},
-/obj/item/reagent_containers/food/condiment/soymilk{
-	pixel_x = -6;
-	pixel_y = 8
-	},
-/obj/item/reagent_containers/food/drinks/ice{
-	pixel_x = -4;
-	pixel_y = -2
-	},
-/obj/item/reagent_containers/food/drinks/bottle/cream{
-	pixel_x = 3;
-	pixel_y = -2
-	},
-/obj/structure/table{
-	name = "Jim Norton's Quebecois Coffee table"
-	},
-/turf/open/floor/iron/dark,
-/area/service/cafeteria)
 "aSy" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/rack,
@@ -10831,13 +10789,15 @@
 /turf/open/floor/iron/white/corner,
 /area/hallway/secondary/entry)
 "aXm" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/service/cafeteria)
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/commons/storage/primary)
 "aXn" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 8
@@ -13137,26 +13097,12 @@
 /turf/open/floor/iron,
 /area/hallway/primary/port)
 "biC" = (
-/obj/structure/window/reinforced,
-/obj/item/reagent_containers/food/drinks/mug/coco{
-	pixel_x = -2;
-	pixel_y = 4
-	},
-/obj/item/reagent_containers/food/drinks/mug/tea{
-	pixel_x = 4;
-	pixel_y = 2
-	},
-/obj/item/reagent_containers/food/drinks/coffee{
-	pixel_x = -3
-	},
-/obj/structure/table/reinforced{
-	name = "Jim Norton's Quebecois Coffee table"
-	},
-/obj/effect/turf_decal/trimline/neutral/line{
-	dir = 1
-	},
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/clothing/gloves/color/fyellow,
+/obj/item/stack/cable_coil,
 /turf/open/floor/iron/dark,
-/area/service/cafeteria)
+/area/commons/storage/primary)
 "biW" = (
 /obj/item/storage/box/lights/mixed,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
@@ -28531,13 +28477,14 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 9
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
 	},
-/obj/effect/turf_decal/bot,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/service/cafeteria)
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/commons/storage/primary)
 "cTM" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -32108,35 +32055,9 @@
 /turf/open/floor/iron/white,
 /area/science/mixing)
 "dWH" = (
-/obj/structure/window/reinforced,
-/obj/item/food/cakeslice/pound_cake_slice{
-	pixel_x = 8;
-	pixel_y = -2
-	},
-/obj/machinery/airalarm{
-	dir = 8;
-	pixel_x = 22
-	},
-/obj/structure/table/reinforced{
-	name = "Jim Norton's Quebecois Coffee table"
-	},
-/obj/item/food/poppypretzel{
-	pixel_x = -8;
-	pixel_y = -3
-	},
-/obj/item/food/muffin/berry{
-	pixel_x = -4;
-	pixel_y = 9
-	},
-/obj/item/food/hotcrossbun{
-	pixel_x = 3;
-	pixel_y = 5
-	},
-/obj/effect/turf_decal/trimline/neutral/line{
-	dir = 1
-	},
+/obj/effect/landmark/event_spawn,
 /turf/open/floor/iron/dark,
-/area/service/cafeteria)
+/area/commons/storage/primary)
 "dWN" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
@@ -33226,14 +33147,20 @@
 /turf/open/floor/iron/white,
 /area/science/research)
 "evh" = (
+/obj/item/assembly/timer,
+/obj/item/storage/box/shipping,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/radio{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/wrench,
+/obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/obj/effect/landmark/start/assistant,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/trimline/neutral/line,
 /turf/open/floor/iron/dark,
-/area/service/cafeteria)
+/area/commons/storage/primary)
 "evl" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -35392,21 +35319,6 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/main)
-"fjq" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/engineering/glass{
-	name = "Primary Tool Storage"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/commons/storage/primary)
 "fjy" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
@@ -35726,11 +35638,14 @@
 /area/service/chapel/office)
 "fqz" = (
 /obj/structure/cable,
-/obj/effect/turf_decal/siding/wood{
+/obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/turf/open/floor/wood,
-/area/service/cafeteria)
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/commons/storage/primary)
 "fqC" = (
 /obj/machinery/holopad,
 /obj/effect/turf_decal/box/white{
@@ -37713,23 +37628,21 @@
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
 "ggs" = (
-/obj/machinery/light{
-	dir = 4
+/obj/structure/rack,
+/obj/item/flashlight,
+/obj/item/clothing/gloves/color/fyellow,
+/obj/item/book/manual/wiki/engineering_hacking{
+	pixel_x = -3;
+	pixel_y = 3
 	},
-/obj/structure/table/reinforced,
-/obj/item/storage/box/lights/mixed,
-/obj/item/stack/sheet/iron{
-	amount = 30
+/obj/item/book/manual/wiki/engineering_guide,
+/obj/item/book/manual/wiki/engineering_construction{
+	pixel_x = 3;
+	pixel_y = -3
 	},
-/obj/item/radio{
-	pixel_x = -5;
-	pixel_y = 5
-	},
-/obj/item/stack/cable_coil,
-/obj/structure/sign/poster/random{
-	pixel_x = 32
-	},
-/turf/open/floor/iron,
+/obj/item/airlock_painter,
+/obj/item/crowbar,
+/turf/open/floor/iron/dark,
 /area/commons/storage/primary)
 "ggA" = (
 /obj/structure/table,
@@ -37940,24 +37853,6 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/primary/starboard)
-"gjx" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/vending/coffee{
-	custom_premium_price = 0;
-	custom_price = 0;
-	default_price = 0;
-	extra_price = 0;
-	fair_market_price = 0;
-	name = "\improper Jim Norton's Quebecois Coffee"
-	},
-/obj/machinery/light_switch{
-	pixel_x = -6;
-	pixel_y = 27
-	},
-/turf/open/floor/iron/dark,
-/area/service/cafeteria)
 "gjM" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -41450,11 +41345,6 @@
 	},
 /turf/open/floor/engine/vacuum,
 /area/engineering/atmos)
-"hDR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/commons/storage/primary)
 "hDZ" = (
 /obj/machinery/seed_extractor,
 /obj/machinery/airalarm{
@@ -45191,15 +45081,18 @@
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
 "jhL" = (
-/obj/structure/rack,
-/obj/item/storage/box/lights/mixed,
-/obj/item/clothing/gloves/color/fyellow,
-/obj/item/stack/package_wrap,
-/obj/item/stack/sheet/glass{
-	amount = 30
-	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron,
+/obj/structure/rack,
+/obj/item/storage/belt/utility,
+/obj/item/storage/toolbox/electrical,
+/obj/item/radio,
+/obj/item/hand_labeler,
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 22
+	},
+/obj/machinery/camera/autoname,
+/turf/open/floor/iron/dark,
 /area/commons/storage/primary)
 "jib" = (
 /obj/structure/closet/crate/trashcart,
@@ -46409,9 +46302,8 @@
 	req_one_access_txt = "12;63;48;50"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
 /turf/open/floor/plating,
-/area/commons/storage/primary)
+/area/maintenance/port/fore)
 "jHi" = (
 /obj/item/candle,
 /obj/machinery/light_switch{
@@ -47389,13 +47281,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/security/brig)
-"jZB" = (
-/obj/machinery/vending/tool,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/commons/storage/primary)
 "jZS" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -47540,8 +47425,8 @@
 "keE" = (
 /obj/structure/cable,
 /obj/machinery/holopad,
-/turf/open/floor/wood,
-/area/service/cafeteria)
+/turf/open/floor/iron/dark,
+/area/commons/storage/primary)
 "keM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/curtain,
@@ -49777,11 +49662,10 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/service/cafeteria)
+/obj/structure/table/reinforced,
+/obj/item/storage/belt/utility,
+/turf/open/floor/iron/dark,
+/area/commons/storage/primary)
 "kYY" = (
 /obj/structure/table,
 /obj/item/stack/package_wrap{
@@ -49973,14 +49857,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/medical/abandoned)
-"lbQ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/event_spawn,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/obj/machinery/holopad,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/commons/storage/primary)
 "lbX" = (
 /obj/structure/cable,
 /obj/structure/sink/kitchen{
@@ -50499,16 +50375,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/engineering/break_room)
-"lmq" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light_switch{
-	pixel_x = -26;
-	pixel_y = 28
-	},
-/obj/item/clothing/gloves/color/fyellow,
-/obj/item/stack/cable_coil,
-/turf/open/floor/iron,
-/area/commons/storage/primary)
 "lmx" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
@@ -51238,10 +51104,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
-"lEZ" = (
-/obj/machinery/vending/assist,
-/turf/open/floor/iron,
-/area/commons/storage/primary)
 "lFt" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 4
@@ -54463,9 +54325,6 @@
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/iron/white,
 /area/medical/chemistry)
-"mRi" = (
-/turf/closed/wall,
-/area/service/cafeteria)
 "mRu" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock{
@@ -55198,10 +55057,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/science/misc_lab)
-"nfZ" = (
-/obj/structure/sign/poster/contraband/missing_gloves,
-/turf/closed/wall,
-/area/commons/storage/primary)
 "nge" = (
 /obj/structure/closet/crate/secure/weapon{
 	desc = "A secure clothing crate.";
@@ -55454,14 +55309,12 @@
 /turf/open/floor/iron/white,
 /area/science/cytology)
 "nil" = (
-/obj/structure/chair/stool{
-	name = "Jim Norton's Quebecois Coffee stool"
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
 	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 6
-	},
-/turf/open/floor/wood,
-/area/service/cafeteria)
+/turf/open/floor/iron/dark,
+/area/commons/storage/primary)
 "nio" = (
 /obj/structure/rack,
 /obj/item/wrench,
@@ -55540,13 +55393,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
-"nky" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/storage/belt/utility,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/commons/storage/primary)
 "nkG" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 5
@@ -55631,21 +55477,22 @@
 /turf/open/floor/iron,
 /area/cargo/sorting)
 "nnj" = (
-/obj/structure/table/reinforced{
-	name = "Jim Norton's Quebecois Coffee table"
+/obj/structure/table/reinforced,
+/obj/item/flashlight,
+/obj/item/analyzer{
+	pixel_x = 7;
+	pixel_y = 3
 	},
-/obj/item/storage/fancy/donut_box,
-/obj/item/paper{
-	info = "Jim Norton's Quebecois Coffee.         You see, in 2265 the Quebecois had finally had enough of Canada's shit, and went to the one place that wasn't corrupted by Canuckistan.Je vais au seul endroit qui n'a pas � corrompu par les Canadiens ... ESPACE.";
-	name = "Coffee Shop";
-	pixel_x = -4;
-	pixel_y = 6
+/obj/item/assembly/signaler,
+/obj/item/stack/rods{
+	amount = 25
 	},
-/obj/effect/turf_decal/trimline/neutral/line{
-	dir = 1
-	},
+/obj/item/stack/cable_coil,
+/obj/item/gps,
+/obj/item/clothing/gloves/color/fyellow,
+/obj/item/gps,
 /turf/open/floor/iron/dark,
-/area/service/cafeteria)
+/area/commons/storage/primary)
 "nny" = (
 /obj/structure/closet/secure_closet/miner,
 /obj/machinery/camera{
@@ -58099,21 +57946,14 @@
 /turf/open/floor/iron/dark,
 /area/command/bridge)
 "opJ" = (
-/obj/structure/window/reinforced{
+/obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/obj/item/stack/spacecash/c1{
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/glass/rag,
-/obj/structure/table/reinforced{
-	name = "Jim Norton's Quebecois Coffee table"
-	},
-/obj/effect/turf_decal/trimline/neutral/line{
+/obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/service/cafeteria)
+/area/commons/storage/primary)
 "oqa" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
@@ -62582,10 +62422,6 @@
 /obj/machinery/light/small,
 /turf/open/floor/engine/o2,
 /area/engineering/atmos)
-"pYe" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
-/area/commons/storage/primary)
 "pYi" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -65202,31 +65038,9 @@
 /turf/open/floor/iron/freezer,
 /area/commons/toilet/restrooms)
 "qZP" = (
-/obj/structure/table/reinforced,
-/obj/item/flashlight,
-/obj/item/analyzer{
-	pixel_x = 7;
-	pixel_y = 3
-	},
-/obj/item/assembly/signaler,
-/obj/item/stack/rods{
-	amount = 25
-	},
-/obj/item/stack/cable_coil,
-/obj/item/gps,
-/obj/structure/cable,
-/obj/structure/extinguisher_cabinet{
-	dir = 4;
-	pixel_x = 24
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/item/clothing/gloves/color/fyellow,
-/obj/item/gps,
-/obj/machinery/power/apc/auto_name/north,
-/turf/open/floor/iron,
-/area/commons/storage/primary)
+/obj/structure/trash_pile,
+/turf/open/floor/plating,
+/area/maintenance/port/fore)
 "rac" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -65244,13 +65058,15 @@
 /turf/closed/wall/r_wall,
 /area/command/corporate_showroom)
 "rap" = (
-/obj/effect/turf_decal/siding/wood,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/service/cafeteria)
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/commons/storage/primary)
 "rau" = (
 /obj/structure/table,
 /obj/structure/window/reinforced{
@@ -65648,22 +65464,23 @@
 /turf/open/floor/plating,
 /area/maintenance/department/science/xenobiology)
 "rjq" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 10
-	},
 /obj/machinery/disposal/bin{
 	name = "Jim Norton's Quebecois Coffee disposal unit"
 	},
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
-/obj/structure/window/reinforced{
+/obj/structure/window/spawner,
+/obj/structure/window/spawner/west,
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/obj/structure/window/reinforced,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/wood,
-/area/service/cafeteria)
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/commons/storage/primary)
 "rjr" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
@@ -67531,18 +67348,21 @@
 /turf/open/floor/iron,
 /area/cargo/sorting)
 "rTH" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/box/lights/mixed,
+/obj/item/stack/sheet/iron{
+	amount = 30
+	},
+/obj/item/radio{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/item/stack/cable_coil,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/effect/turf_decal/loading_area{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/service/cafeteria)
+/turf/open/floor/iron/dark,
+/area/commons/storage/primary)
 "rTO" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
@@ -72061,17 +71881,6 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/main)
-"tLQ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/commons/storage/primary)
 "tLW" = (
 /obj/machinery/meter{
 	name = "Mixed Air Tank In"
@@ -73212,16 +73021,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/security/brig)
-"uiW" = (
-/obj/machinery/newscaster{
-	pixel_y = 32
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/item/storage/toolbox/mechanical,
-/obj/machinery/camera/autoname,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/commons/storage/primary)
 "ujh" = (
 /obj/machinery/door/window/northleft{
 	dir = 8;
@@ -75270,43 +75069,6 @@
 	},
 /turf/open/floor/engine,
 /area/engineering/supermatter)
-"uYX" = (
-/obj/structure/sign/poster/contraband/robust_softdrinks{
-	name = "Jim Norton's Quebecois Coffee";
-	pixel_y = 32
-	},
-/obj/item/seeds/coffee{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/seeds/coffee/robusta{
-	pixel_x = -3;
-	pixel_y = -2
-	},
-/obj/item/seeds/coffee{
-	pixel_x = -2;
-	pixel_y = 4
-	},
-/obj/item/storage/box/drinkingglasses{
-	pixel_x = 4;
-	pixel_y = 5
-	},
-/obj/item/storage/pill_bottle/happinesspsych{
-	pixel_x = -4;
-	pixel_y = -1
-	},
-/obj/item/seeds/coffee{
-	pixel_x = 4;
-	pixel_y = -2
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/structure/table{
-	name = "Jim Norton's Quebecois Coffee table"
-	},
-/turf/open/floor/iron/dark,
-/area/service/cafeteria)
 "uZe" = (
 /obj/machinery/modular_computer/console/preset/civilian,
 /obj/effect/turf_decal/siding{
@@ -75909,14 +75671,6 @@
 	},
 /turf/open/floor/plating,
 /area/cargo/storage)
-"vkg" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/commons/storage/primary)
 "vks" = (
 /obj/structure/chair/office/light,
 /obj/structure/disposalpipe/segment{
@@ -76367,15 +76121,14 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/obj/machinery/door/window/southright{
-	dir = 8;
-	name = "Jim Norton's Quebecois Coffee";
-	req_one_access_txt = "12;25;28;35;37"
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/trimline/neutral/line,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
-/area/service/cafeteria)
+/area/commons/storage/primary)
 "vsY" = (
 /obj/effect/landmark/start/captain,
 /obj/structure/chair/comfy/brown,
@@ -76599,30 +76352,10 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/command/nuke_storage)
 "vyK" = (
-/obj/machinery/power/apc/auto_name/east,
 /obj/structure/cable,
-/obj/structure/table{
-	name = "Jim Norton's Quebecois Coffee table"
-	},
-/obj/item/modular_computer/laptop{
-	pixel_y = -4
-	},
-/obj/item/reagent_containers/food/drinks/coffee{
-	pixel_x = -3;
-	pixel_y = 9
-	},
-/obj/item/reagent_containers/food/drinks/coffee{
-	pixel_x = 5;
-	pixel_y = 12
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/service/cafeteria)
+/obj/machinery/power/apc/auto_name/east,
+/turf/open/floor/iron/dark,
+/area/commons/storage/primary)
 "vyX" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -76779,9 +76512,8 @@
 /area/engineering/storage_shared)
 "vBX" = (
 /obj/structure/cable,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/service/cafeteria)
+/turf/open/floor/iron/dark,
+/area/commons/storage/primary)
 "vCa" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -76859,22 +76591,8 @@
 /turf/open/floor/carpet,
 /area/command/corporate_showroom)
 "vDJ" = (
-/obj/structure/sign/poster/official/cleanliness{
-	pixel_x = 32
-	},
-/obj/structure/sink{
-	pixel_y = 22
-	},
-/obj/effect/turf_decal/bot,
-/obj/item/clothing/suit/apron/chef{
-	name = "Jim Norton's Quebecois Coffee apron"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/camera/autoname{
-	c_tag = "Jim Norton's Quebecois Coffee"
-	},
 /turf/open/floor/iron/dark,
-/area/service/cafeteria)
+/area/commons/storage/primary)
 "vEi" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -78701,13 +78419,18 @@
 /turf/closed/wall,
 /area/commons/toilet/restrooms)
 "wpP" = (
+/obj/item/storage/box/lights/mixed,
+/obj/item/clothing/gloves/color/fyellow,
+/obj/item/stack/package_wrap,
+/obj/item/stack/sheet/glass{
+	amount = 30
+	},
+/obj/structure/table/reinforced,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/trimline/neutral/line,
 /turf/open/floor/iron/dark,
-/area/service/cafeteria)
+/area/commons/storage/primary)
 "wpX" = (
 /obj/structure/chair/comfy/brown,
 /turf/open/floor/engine/cult,
@@ -79198,19 +78921,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port)
-"wBq" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/rack,
-/obj/item/storage/belt/utility,
-/obj/item/storage/toolbox/electrical,
-/obj/item/radio,
-/obj/item/hand_labeler,
-/obj/machinery/airalarm{
-	dir = 8;
-	pixel_x = 22
-	},
-/turf/open/floor/iron,
-/area/commons/storage/primary)
 "wBE" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/wood,
@@ -80033,14 +79743,11 @@
 	},
 /area/service/chapel/main)
 "wRl" = (
-/obj/machinery/newscaster{
-	pixel_x = 28;
-	pixel_y = 1
+/obj/machinery/light_switch{
+	pixel_x = 28
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/trimline/neutral/line,
 /turf/open/floor/iron/dark,
-/area/service/cafeteria)
+/area/commons/storage/primary)
 "wRm" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
 /turf/open/floor/carpet,
@@ -82868,18 +82575,8 @@
 /area/engineering/atmos)
 "xWZ" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/rack,
-/obj/item/assembly/timer,
-/obj/effect/spawner/lootdrop/maintenance,
-/obj/item/storage/box/shipping,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/radio{
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/obj/item/wrench,
-/turf/open/floor/iron,
-/area/commons/storage/primary)
+/turf/open/floor/plating,
+/area/maintenance/port/fore)
 "xXo" = (
 /obj/structure/table,
 /obj/item/clothing/under/rank/prisoner,
@@ -83691,18 +83388,12 @@
 /turf/open/floor/iron,
 /area/engineering/main)
 "ylB" = (
-/obj/item/radio/intercom{
+/obj/structure/extinguisher_cabinet{
 	dir = 4;
-	pixel_x = 27
+	pixel_x = 24
 	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 5
-	},
-/obj/structure/chair/stool{
-	name = "Jim Norton's Quebecois Coffee stool"
-	},
-/turf/open/floor/wood,
-/area/service/cafeteria)
+/turf/open/floor/iron/dark,
+/area/commons/storage/primary)
 "ylE" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -105741,7 +105432,7 @@ aEH
 kQx
 aIz
 aJP
-aMB
+qYx
 qYx
 aTf
 uLc
@@ -105994,14 +105685,14 @@ aaa
 aaa
 aaa
 aaa
+dne
+dne
+dne
+dne
+jHg
 cvc
-nfZ
-cvc
-pYe
-fjq
-pYe
-cvc
-gjx
+aMB
+opJ
 vsW
 opJ
 cTG
@@ -106251,14 +105942,14 @@ aaa
 aaa
 aaa
 aaa
+dne
+aRG
+aRG
+aRG
+xWZ
 cvc
-jZB
-lEZ
-lmq
-tLQ
 aPL
-cvc
-aSo
+vDJ
 evh
 nnj
 rTH
@@ -106508,14 +106199,14 @@ aaa
 aaa
 aaa
 aaa
+dne
+aRG
+aRG
+xWZ
+aRG
 cvc
-uiW
-nky
-lbQ
-vkg
-jhL
-cvc
-uYX
+ggs
+vDJ
 wpP
 biC
 kYK
@@ -106765,13 +106456,13 @@ aaa
 aaa
 aaa
 aaa
-cvc
+dne
 qZP
 xWZ
-wBq
-hDR
-ggs
+aRG
+xWZ
 cvc
+jhL
 vDJ
 wRl
 dWH
@@ -107022,19 +106713,19 @@ aaa
 aaa
 aaa
 dne
-cvc
-cvc
-cvc
-cvc
+dne
+dne
+dne
+dne
 jHg
 cvc
 cvc
-mRi
-mRi
-mRi
-mRi
-mRi
-mRi
+cvc
+cvc
+cvc
+cvc
+cvc
+cvc
 aXz
 aYY
 baQ

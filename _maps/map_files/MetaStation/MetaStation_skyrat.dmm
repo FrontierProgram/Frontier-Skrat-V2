@@ -32459,12 +32459,22 @@
 /turf/open/floor/iron/dark,
 /area/security/range)
 "ees" = (
-/obj/structure/fluff/broken_flooring{
-	dir = 4;
-	icon_state = "pile"
+/obj/structure/rack,
+/obj/item/flashlight,
+/obj/item/clothing/gloves/color/fyellow,
+/obj/item/book/manual/wiki/engineering_hacking{
+	pixel_x = -3;
+	pixel_y = 3
 	},
-/turf/open/floor/plating,
-/area/maintenance/port/aft)
+/obj/item/book/manual/wiki/engineering_guide,
+/obj/item/book/manual/wiki/engineering_construction{
+	pixel_x = 3;
+	pixel_y = -3
+	},
+/obj/item/airlock_painter,
+/obj/item/crowbar,
+/turf/open/floor/iron/dark,
+/area/commons/storage/primary)
 "eev" = (
 /obj/structure/window/reinforced,
 /obj/effect/turf_decal/delivery,
@@ -37628,20 +37638,17 @@
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
 "ggs" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
-/obj/item/flashlight,
-/obj/item/clothing/gloves/color/fyellow,
-/obj/item/book/manual/wiki/engineering_hacking{
-	pixel_x = -3;
-	pixel_y = 3
+/obj/item/storage/belt/utility,
+/obj/item/storage/toolbox/electrical,
+/obj/item/radio,
+/obj/item/hand_labeler,
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 22
 	},
-/obj/item/book/manual/wiki/engineering_guide,
-/obj/item/book/manual/wiki/engineering_construction{
-	pixel_x = 3;
-	pixel_y = -3
-	},
-/obj/item/airlock_painter,
-/obj/item/crowbar,
+/obj/machinery/camera/autoname,
 /turf/open/floor/iron/dark,
 /area/commons/storage/primary)
 "ggA" = (
@@ -45080,20 +45087,6 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
-"jhL" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/rack,
-/obj/item/storage/belt/utility,
-/obj/item/storage/toolbox/electrical,
-/obj/item/radio,
-/obj/item/hand_labeler,
-/obj/machinery/airalarm{
-	dir = 8;
-	pixel_x = 22
-	},
-/obj/machinery/camera/autoname,
-/turf/open/floor/iron/dark,
-/area/commons/storage/primary)
 "jib" = (
 /obj/structure/closet/crate/trashcart,
 /obj/effect/spawner/lootdrop/prison_contraband,
@@ -52807,12 +52800,6 @@
 	},
 /turf/open/floor/plating,
 /area/service/chapel/main)
-"mmb" = (
-/obj/structure/fluff/broken_flooring{
-	icon_state = "singular"
-	},
-/turf/open/floor/plating,
-/area/maintenance/port/aft)
 "mmq" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -56149,12 +56136,6 @@
 /obj/structure/sign/warning/fire,
 /turf/closed/wall/r_wall,
 /area/science/mixing/chamber)
-"nDf" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/fluff/broken_flooring,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/turf/open/floor/plating,
-/area/maintenance/port/aft)
 "nDw" = (
 /obj/structure/lattice,
 /turf/closed/wall/r_wall,
@@ -58398,13 +58379,6 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/main)
-"oAe" = (
-/obj/structure/fluff/broken_flooring{
-	dir = 4;
-	icon_state = "singular"
-	},
-/turf/open/floor/plating,
-/area/maintenance/port/aft)
 "oAn" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -99316,11 +99290,11 @@ jdp
 dux
 cCk
 qUR
-mmb
+bXE
 yaN
 uHp
 bXE
-oAe
+bXE
 cCk
 dux
 sfQ
@@ -100345,7 +100319,7 @@ fED
 diF
 diF
 qZf
-nDf
+qZf
 ueg
 geT
 bXE
@@ -100602,11 +100576,11 @@ dux
 cxp
 riP
 bXE
-ees
+bXE
 bXE
 plC
 rig
-oAe
+bXE
 xsx
 mqo
 duH
@@ -106205,7 +106179,7 @@ aRG
 xWZ
 aRG
 cvc
-ggs
+ees
 vDJ
 wpP
 biC
@@ -106462,7 +106436,7 @@ xWZ
 aRG
 xWZ
 cvc
-jhL
+ggs
 vDJ
 wRl
 dWH

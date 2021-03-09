@@ -4745,15 +4745,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/structure/cable,
-/mob/living/simple_animal/hostile/poison/giant_spider/hunter{
-	desc = "Furry and black, it makes you shudder to look at it. This one has sparkling purple eyes, and looks abnormally thin and frail.";
-	environment_smash = 0;
-	health = 60;
-	maxHealth = 60;
-	melee_damage_lower = 5;
-	melee_damage_upper = 10;
-	name = "scrawny spider"
-	},
 /turf/open/floor/plating,
 /area/maintenance/department/electrical)
 "ajE" = (
@@ -6284,12 +6275,6 @@
 /mob/living/simple_animal/hostile/carp/cayenne/lia,
 /turf/open/floor/iron/dark,
 /area/command/heads_quarters/hos)
-"amq" = (
-/mob/living/simple_animal/hostile/asteroid/basilisk{
-	environment_smash = 0
-	},
-/turf/open/floor/plating/asteroid/airless,
-/area/space/nearstation)
 "amt" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 6
@@ -41777,7 +41762,6 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/mob/living/simple_animal/hostile/asteroid/hivelord,
 /turf/open/floor/plating,
 /area/cargo/warehouse)
 "bqH" = (
@@ -47621,15 +47605,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/mob/living/simple_animal/hostile/poison/giant_spider/tarantula{
-	desc = "Furry and black, it makes you shudder to look at it. This one has abyssal red eyes, and looks abnormally thin and frail.";
-	environment_smash = 0;
-	health = 150;
-	maxHealth = 150;
-	melee_damage_lower = 20;
-	melee_damage_upper = 25;
-	name = "scrawny tarantula"
-	},
 /turf/open/floor/iron/dark,
 /area/maintenance/port)
 "bAe" = (
@@ -49887,15 +49862,6 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/blood/old,
-/mob/living/simple_animal/hostile/poison/giant_spider/hunter{
-	desc = "Furry and black, it makes you shudder to look at it. This one has sparkling purple eyes, and looks abnormally thin and frail.";
-	environment_smash = 0;
-	health = 60;
-	maxHealth = 60;
-	melee_damage_lower = 5;
-	melee_damage_upper = 10;
-	name = "scrawny spider"
-	},
 /turf/open/floor/iron/dark,
 /area/maintenance/port)
 "bDK" = (
@@ -56790,7 +56756,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/mob/living/simple_animal/hostile/asteroid/hivelord,
 /turf/open/floor/plating,
 /area/cargo/warehouse)
 "bPr" = (
@@ -72114,14 +72079,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/starboard)
-"cui" = (
-/mob/living/simple_animal/hostile/asteroid/goliath,
-/turf/open/floor/plating/asteroid/airless,
-/area/space/nearstation)
-"cuj" = (
-/mob/living/simple_animal/hostile/asteroid/hivelord,
-/turf/open/floor/plating/asteroid/airless,
-/area/space/nearstation)
 "cuk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -73544,14 +73501,6 @@
 	},
 /area/maintenance/port/fore)
 "cxc" = (
-/mob/living/simple_animal/hostile/bear{
-	desc = "Once a trained show bear, this creature has been left abandoned and unfed.";
-	environment_smash = 0;
-	health = 160;
-	maxHealth = 160;
-	melee_damage_upper = 25;
-	name = "hungry show bear"
-	},
 /turf/open/floor/wood,
 /area/maintenance/port/fore)
 "cxd" = (
@@ -74622,10 +74571,6 @@
 /obj/effect/decal/cleanable/blood/gibs/old,
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/jungle/mook{
-	environment_smash = 0;
-	name = "deformed creature"
-	},
 /turf/open/floor/iron/dark,
 /area/maintenance/port/fore)
 "czb" = (
@@ -74814,10 +74759,6 @@
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/mob/living/simple_animal/hostile/jungle/mook{
-	environment_smash = 0;
-	name = "deformed creature"
-	},
 /turf/open/floor/iron/dark,
 /area/maintenance/port/fore)
 "czr" = (
@@ -77185,15 +77126,6 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/iron/dark,
 /area/maintenance/starboard/fore)
-"cEc" = (
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/retaliate/ghost,
-/turf/open/floor/iron/dark,
-/area/maintenance/starboard/fore)
 "cEd" = (
 /obj/structure/sign/warning/fire,
 /obj/structure/grille,
@@ -77377,7 +77309,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 10
 	},
-/mob/living/simple_animal/hostile/retaliate/ghost,
 /turf/open/floor/wood,
 /area/maintenance/starboard/fore)
 "cEv" = (
@@ -77536,7 +77467,6 @@
 /area/maintenance/fore)
 "cEI" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/cat_butcherer,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
@@ -80293,11 +80223,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/security/prison)
-"cJH" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/asteroid/hivelord,
-/turf/open/floor/plating,
-/area/cargo/warehouse)
 "cJI" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -80443,7 +80368,6 @@
 "cKb" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/asteroid/hivelord,
 /turf/open/floor/plating,
 /area/cargo/warehouse)
 "cKc" = (
@@ -81108,9 +81032,6 @@
 /area/maintenance/starboard/aft)
 "cLi" = (
 /obj/structure/table_frame/wood,
-/mob/living/simple_animal/hostile/asteroid/basilisk{
-	environment_smash = 0
-	},
 /turf/open/floor/carpet/green,
 /area/cargo/warehouse)
 "cLj" = (
@@ -81635,15 +81556,6 @@
 /area/service/library)
 "cME" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/poison/giant_spider/hunter{
-	desc = "Furry and black, it makes you shudder to look at it. This one has sparkling purple eyes, and looks abnormally thin and frail.";
-	environment_smash = 0;
-	health = 60;
-	maxHealth = 60;
-	melee_damage_lower = 5;
-	melee_damage_upper = 10;
-	name = "scrawny spider"
-	},
 /turf/open/floor/plating,
 /area/maintenance/department/electrical)
 "cMF" = (
@@ -82765,11 +82677,6 @@
 	dir = 1
 	},
 /obj/effect/landmark/event_spawn,
-/mob/living/simple_animal/hostile/russian{
-	environment_smash = 0;
-	loot = list(/obj/effect/mob_spawn/human/corpse/russian);
-	name = "Russian Mobster"
-	},
 /turf/open/floor/carpet/green,
 /area/maintenance/port)
 "dFw" = (
@@ -83188,11 +83095,6 @@
 /obj/effect/decal/cleanable/blood/old,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
-	},
-/mob/living/simple_animal/hostile/russian{
-	environment_smash = 0;
-	loot = list(/obj/effect/mob_spawn/human/corpse/russian);
-	name = "Russian Mobster"
 	},
 /turf/open/floor/carpet/green,
 /area/maintenance/port)
@@ -85364,11 +85266,6 @@
 /area/security/prison)
 "kNb" = (
 /obj/structure/chair/stool/bar,
-/mob/living/simple_animal/hostile/russian{
-	environment_smash = 0;
-	loot = list(/obj/effect/mob_spawn/human/corpse/russian);
-	name = "Russian Mobster"
-	},
 /turf/open/floor/wood,
 /area/maintenance/port)
 "kNI" = (
@@ -88287,10 +88184,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/security/warden)
-"thU" = (
-/mob/living/simple_animal/hostile/asteroid/goliath,
-/turf/open/floor/plating/asteroid/lowpressure,
-/area/space/nearstation)
 "tkg" = (
 /obj/structure/weightmachine/weightlifter,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -90276,10 +90169,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/maintenance/port)
-"ycp" = (
-/mob/living/simple_animal/hostile/asteroid/hivelord,
-/turf/open/floor/plating/asteroid/lowpressure,
-/area/space/nearstation)
 "ycI" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -95630,7 +95519,7 @@ aaa
 aeU
 aeu
 aeU
-amq
+aeU
 aeU
 aeu
 cpx
@@ -98999,7 +98888,7 @@ oGb
 uIs
 omu
 aav
-cui
+aeU
 aeU
 aeu
 aeu
@@ -99653,7 +99542,7 @@ aeU
 aeU
 aeU
 aeU
-cuj
+aeU
 aeU
 aeU
 aeU
@@ -105565,7 +105454,7 @@ aeu
 aeu
 aeU
 aeU
-cui
+aeU
 aeU
 aeU
 aeU
@@ -106119,7 +106008,7 @@ aeu
 aeu
 aeu
 aUz
-cui
+aeU
 aeu
 aeu
 aeu
@@ -108631,7 +108520,7 @@ aeu
 aeu
 aeu
 aeU
-cuj
+aeU
 aeU
 aap
 aeu
@@ -121259,7 +121148,7 @@ anH
 aeu
 aeu
 aeU
-amq
+aeU
 aeu
 aeu
 aeu
@@ -122832,7 +122721,7 @@ cIX
 cIX
 cIU
 cDT
-cEc
+cEs
 cEl
 cJD
 cFl
@@ -124101,7 +123990,7 @@ aeU
 aeu
 aeu
 aeU
-cui
+aeU
 aeU
 aeu
 aeu
@@ -133366,7 +133255,7 @@ aeu
 aeu
 aeU
 aeU
-cui
+aeU
 aeu
 aeu
 aeu
@@ -133812,7 +133701,7 @@ aeu
 aeU
 aeU
 aeU
-cuj
+aeU
 aeU
 aeu
 aeu
@@ -135125,7 +135014,7 @@ buD
 asJ
 act
 cIZ
-cJH
+cKB
 cKl
 cKw
 cKR
@@ -138204,7 +138093,7 @@ aeu
 dvN
 dvN
 dvN
-ycp
+dvN
 dvN
 dvN
 dvN
@@ -138699,7 +138588,7 @@ aeu
 aeu
 aeu
 aeU
-cui
+aeU
 aeU
 aeU
 aeu
@@ -139289,7 +139178,7 @@ aeu
 aeu
 aeu
 aUz
-amq
+aeU
 aeU
 aeu
 aeu
@@ -139486,7 +139375,7 @@ aeu
 aeu
 aap
 aoz
-thU
+dvN
 dvN
 dvN
 aeu
@@ -143148,7 +143037,7 @@ aeU
 aeu
 aeu
 aeu
-cuj
+aeU
 aeu
 aeu
 aeu
@@ -148271,7 +148160,7 @@ aeu
 aeu
 aeu
 aeu
-amq
+aeU
 aeU
 coy
 aeu

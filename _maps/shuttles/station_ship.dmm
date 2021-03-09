@@ -455,10 +455,10 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/obj/machinery/rnd/production/protolathe/department,
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+/obj/machinery/rnd/production/protolathe/department/science,
 /turf/open/floor/iron/dark,
 /area/shuttle/shipstation)
 "cG" = (
@@ -1860,10 +1860,10 @@
 "sb" = (
 /obj/effect/turf_decal/trimline/purple/filled/line,
 /obj/structure/disposalpipe/segment,
-/obj/machinery/rnd/production/circuit_imprinter/department,
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+/obj/machinery/rnd/production/circuit_imprinter/department/science,
 /turf/open/floor/iron/dark,
 /area/shuttle/shipstation)
 "sd" = (

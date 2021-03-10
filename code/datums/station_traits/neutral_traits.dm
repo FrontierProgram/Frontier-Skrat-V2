@@ -2,7 +2,7 @@
 	name = "Bananium Shipment"
 	trait_type = STATION_TRAIT_NEUTRAL
 	weight = 5
-	report_message = "Rumors has it that the clown planet has been sending support packages to clowns in this system"
+	report_message = "Rumors has it that the clown planet has been sending support packages to clowns in this system? Keep an eye out and your ears low."
 	trait_to_give = STATION_TRAIT_BANANIUM_SHIPMENTS
 
 /datum/station_trait/unnatural_atmosphere
@@ -10,7 +10,7 @@
 	trait_type = STATION_TRAIT_NEUTRAL
 	weight = 5
 	show_in_report = TRUE
-	report_message = "System's local planet has irregular atmospherical properties"
+	report_message = "System's local planet has irregular atmospherical properties. Investigate. Harvest. Neutralize."
 	trait_to_give = STATION_TRAIT_UNNATURAL_ATMOSPHERE
 
 /datum/station_trait/unique_ai
@@ -49,16 +49,29 @@
 	trait_type = STATION_TRAIT_NEUTRAL
 	weight = 8
 	show_in_report = TRUE
-	report_message = "Something seems to be wrong with the PDAs issues to you all this shift. Nothing too bad though."
+	report_message = "Something seems to be wrong with the PDAs issued to you all this shift. Nothing too bad though."
 	trait_to_give = STATION_TRAIT_PDA_GLITCHED
 
 /datum/station_trait/announcement_intern
 	name = "Announcement Intern"
 	trait_type = STATION_TRAIT_NEUTRAL
-	weight = 5
+	weight = 1
 	show_in_report = TRUE
 	report_message = "Please be nice to him."
+	blacklist = list(/datum/station_trait/announcement_medbot)
 
 /datum/station_trait/announcement_intern/New()
 	. = ..()
 	SSstation.announcer = /datum/centcom_announcer/intern
+
+/datum/station_trait/announcement_medbot
+	name = "Announcement \"System\""
+	trait_type = STATION_TRAIT_NEUTRAL
+	weight = 1
+	show_in_report = TRUE
+	report_message = "Our announcement system is under scheduled maintanance at the moment. Thankfully, we have a backup."
+	blacklist = list(/datum/station_trait/announcement_intern)
+
+/datum/station_trait/announcement_medbot/New()
+	. = ..()
+	SSstation.announcer = /datum/centcom_announcer/medbot

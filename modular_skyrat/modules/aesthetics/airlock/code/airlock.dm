@@ -275,45 +275,255 @@
 	overlays_file = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/overlays.dmi'
 	note_overlay_file = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/overlays.dmi'
 
+/obj/machinery/door/airlock/ancient
+	icon = 'icons/obj/doors/airlocks/station/public.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/ancient/glass
+	opacity = FALSE
+	glass = TRUE
+
 /obj/machinery/door/airlock/command
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/command.dmi'
 
+/obj/machinery/door/airlock/command/ancient
+	icon = 'icons/obj/doors/airlocks/station/command.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/command/ancient/glass
+	opacity = FALSE
+	glass = TRUE
+
 /obj/machinery/door/airlock/security
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/security.dmi'
+
+/obj/machinery/door/airlock/security/ancient
+	icon = 'icons/obj/doors/airlocks/station/security.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/security/ancient/glass
+	opacity = FALSE
+	glass = TRUE
 
 /obj/machinery/door/airlock/security/old
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/security2.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_sec/old
 
+/obj/machinery/door/airlock/security/old/ancient
+	icon = 'icons/obj/doors/airlocks/station/security_old.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/security/old/ancient/glass
+	opacity = FALSE
+	glass = TRUE
+
 /obj/machinery/door/airlock/engineering
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/engineering.dmi'
+
+/obj/machinery/door/airlock/engineering/ancient
+	icon = 'icons/obj/doors/airlocks/station/engineering.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/engineering/ancient/glass
+	opacity = FALSE
+	glass = TRUE
 
 /obj/machinery/door/airlock/medical
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/medical.dmi'
 
+/obj/machinery/door/airlock/medical/ancient
+	icon = 'icons/obj/doors/airlocks/station/medical.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/medical/ancient/glass
+	opacity = FALSE
+	glass = TRUE
+
 /obj/machinery/door/airlock/maintenance
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/maintenance.dmi'
+
+/obj/machinery/door/airlock/maintenance/ancient
+	icon = 'icons/obj/doors/airlocks/station/maintenance.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/maintenance/ancient/glass
+	opacity = FALSE
+	glass = TRUE
 
 /obj/machinery/door/airlock/maintenance/external
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/maintenanceexternal.dmi'
 
+/obj/machinery/door/airlock/maintenance/external/ancient
+	icon = 'icons/obj/doors/airlocks/station/maintenanceexternal.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/maintenance/external/ancient/glass
+	opacity = FALSE
+	glass = TRUE
+
 /obj/machinery/door/airlock/mining
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/mining.dmi'
+
+/obj/machinery/door/airlock/mining/ancient
+	icon = 'icons/obj/doors/airlocks/station/mining.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/mining/ancient/glass
+	opacity = FALSE
+	glass = TRUE
 
 /obj/machinery/door/airlock/atmos
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/atmos.dmi'
 
+/obj/machinery/door/airlock/atmos/ancient
+	icon = 'icons/obj/doors/airlocks/station/atmos.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/atmos/ancient/glass
+	opacity = FALSE
+	glass = TRUE
+
 /obj/machinery/door/airlock/research
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/research.dmi'
+
+/obj/machinery/door/airlock/research/ancient
+	icon = 'icons/obj/doors/airlocks/station/research.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/research/ancient/glass
+	opacity = FALSE
+	glass = TRUE
 
 /obj/machinery/door/airlock/freezer
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/freezer.dmi'
 
+/obj/machinery/door/airlock/freezer/ancient
+	icon = 'icons/obj/doors/airlocks/station/freezer.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/freezer/ancient/glass
+	opacity = FALSE
+	glass = TRUE
+
 /obj/machinery/door/airlock/science
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/science.dmi'
 
+/obj/machinery/door/airlock/science/ancient
+	icon = 'icons/obj/doors/airlocks/station/science.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/science/ancient/glass
+	opacity = FALSE
+	glass = TRUE
+
 /obj/machinery/door/airlock/virology
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/virology.dmi'
+
+/obj/machinery/door/airlock/virology/ancient
+	icon = 'icons/obj/doors/airlocks/station/virology.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/virology/ancient/glass
+	opacity = FALSE
+	glass = TRUE
 
 //STATION MINERAL AIRLOCKS
 /obj/machinery/door/airlock/gold
@@ -346,25 +556,96 @@
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station2/glass.dmi'
 	overlays_file = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station2/overlays.dmi'
 
+/obj/machinery/door/airlock/public/ancient
+	icon = 'icons/obj/doors/airlocks/station2/glass.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/station2/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/public/ancient/glass
+	opacity = FALSE
+	glass = TRUE
+
 //EXTERNAL AIRLOCKS
 /obj/machinery/door/airlock/external
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/external/external.dmi'
 	overlays_file = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/external/overlays.dmi'
 	note_overlay_file = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/external/overlays.dmi'
 
+/obj/machinery/door/airlock/external/ancient
+	icon = 'icons/obj/doors/airlocks/external/external.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/external/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/external/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/external/ancient/glass
+	opacity = FALSE
+	glass = TRUE
+
 //CENTCOMM
 /obj/machinery/door/airlock/centcom
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/centcom/centcom.dmi'
 	overlays_file = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/centcom/overlays.dmi'
 
+/obj/machinery/door/airlock/centcom/ancient
+	icon = 'icons/obj/doors/airlocks/centcom/centcom.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/centcom/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/centcom/ancient/glass
+	opacity = FALSE
+	glass = TRUE
+
 /obj/machinery/door/airlock/grunge
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/centcom/centcom.dmi'
 	overlays_file = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/centcom/overlays.dmi'
+
+/obj/machinery/door/airlock/grunge/ancient
+	icon = 'icons/obj/doors/airlocks/centcom/centcom.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/centcom/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
+/obj/machinery/door/airlock/grunge/ancient/glass
+	opacity = FALSE
+	glass = TRUE
 
 //VAULT
 /obj/machinery/door/airlock/vault
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/vault/vault.dmi'
 	overlays_file = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/vault/overlays.dmi'
+
+/obj/machinery/door/airlock/vault/ancient
+	icon = 'icons/obj/doors/airlocks/vault/vault.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/vault/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
 
 //HATCH
 /obj/machinery/door/airlock/hatch
@@ -372,15 +653,48 @@
 	overlays_file = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/hatch/overlays.dmi'
 	note_overlay_file = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/hatch/overlays.dmi'
 
+/obj/machinery/door/airlock/hatch/ancient
+	icon = 'icons/obj/doors/airlocks/hatch/centcom.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/hatch/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/hatch/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
 /obj/machinery/door/airlock/maintenance_hatch
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/hatch/maintenance.dmi'
 	overlays_file = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/hatch/overlays.dmi'
 	note_overlay_file = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/hatch/overlays.dmi'
 
+/obj/machinery/door/airlock/maintenance_hatch/ancient
+	icon = 'icons/obj/doors/airlocks/hatch/maintenance.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/hatch/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/hatch/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
+
 //HIGH SEC
 /obj/machinery/door/airlock/highsecurity
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/highsec/highsec.dmi'
 	overlays_file = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/highsec/overlays.dmi'
+
+/obj/machinery/door/airlock/highsecurity/ancient
+	icon = 'icons/obj/doors/airlocks/highsec/highsec.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/highsec/overlays.dmi'
+	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
+	doorOpen = 'sound/machines/airlock.ogg'
+	doorClose = 'sound/machines/airlockclose.ogg'
+	doorDeni = 'sound/machines/deniedbeep.ogg'
+	boltUp = 'sound/machines/boltsup.ogg'
+	boltDown = 'sound/machines/boltsdown.ogg'
+	has_environment_lights = FALSE
 
 //GLASS
 /obj/machinery/door/airlock/glass_large

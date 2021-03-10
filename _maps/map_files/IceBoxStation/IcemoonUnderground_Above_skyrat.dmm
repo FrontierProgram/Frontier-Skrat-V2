@@ -6744,16 +6744,6 @@
 /turf/open/floor/iron,
 /area/mine/laborcamp)
 "FS" = (
-/obj/machinery/door/airlock/mining{
-	boltDown = 'sound/machines/boltsdown.ogg';
-	boltUp = 'sound/machines/boltsup.ogg';
-	doorClose = 'sound/machines/airlockclose.ogg';
-	doorDeni = 'sound/machines/deniedbeep.ogg';
-	doorOpen = 'sound/machines/airlock.ogg';
-	icon = 'icons/obj/doors/airlocks/station/mining.dmi';
-	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi';
-	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
-	},
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
@@ -6765,6 +6755,7 @@
 	},
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/door/airlock/mining/ancient/glass,
 /turf/open/floor/iron{
 	icon = 'icons/turf/floors.dmi'
 	},
@@ -9607,18 +9598,8 @@
 /turf/open/floor/iron,
 /area/commons/fitness)
 "Va" = (
-/obj/machinery/door/airlock/mining{
-	boltDown = 'sound/machines/boltsdown.ogg';
-	boltUp = 'sound/machines/boltsup.ogg';
-	doorClose = 'sound/machines/airlockclose.ogg';
-	doorDeni = 'sound/machines/deniedbeep.ogg';
-	doorOpen = 'sound/machines/airlock.ogg';
-	icon = 'icons/obj/doors/airlocks/station/mining.dmi';
-	name = "Warehouse";
-	note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi';
-	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
-	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/door/airlock/mining/ancient,
 /turf/open/floor/iron{
 	icon = 'icons/turf/floors.dmi'
 	},

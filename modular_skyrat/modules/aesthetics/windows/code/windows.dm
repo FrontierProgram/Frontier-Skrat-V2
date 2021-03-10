@@ -11,7 +11,7 @@
 	canSmoothWith = list(SMOOTH_GROUP_WINDOW_FULLTILE, SMOOTH_GROUP_WALLS, SMOOTH_GROUP_AIRLOCK)
 
 /obj/structure/window/reinforced/fulltile/ancient
-	icon = 'icons/obj/smooth_structures/rplasma_window.dmi'
+	icon = 'icons/obj/smooth_structures/reinforced_window.dmi'
 	canSmoothWith = list(SMOOTH_GROUP_WINDOW_FULLTILE)
 
 /obj/structure/window/reinforced/tinted/fulltile

@@ -40634,7 +40634,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "eNr" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance,
@@ -41385,7 +41385,7 @@
 /area/security/courtroom)
 "fGf" = (
 /turf/closed/wall/mineral/iron,
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "fGg" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -44110,7 +44110,7 @@
 /area/security/prison)
 "iMO" = (
 /turf/open/openspace/icemoon,
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "iNn" = (
 /obj/machinery/camera{
 	c_tag = "Kitchen Cold Room"
@@ -44525,7 +44525,7 @@
 	initial_gas_mix = "ICEMOON_ATMOS";
 	planetary_atmos = 1
 	},
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "jlY" = (
 /obj/machinery/airalarm{
 	dir = 8;
@@ -44772,7 +44772,7 @@
 	initial_gas_mix = "ICEMOON_ATMOS";
 	planetary_atmos = 1
 	},
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "jyE" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
@@ -44841,7 +44841,7 @@
 	initial_gas_mix = "ICEMOON_ATMOS";
 	planetary_atmos = 1
 	},
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "jCF" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -45806,7 +45806,7 @@
 "kFz" = (
 /obj/structure/railing,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "kFE" = (
 /obj/structure/chair{
 	dir = 8;
@@ -45924,7 +45924,7 @@
 	initial_gas_mix = "ICEMOON_ATMOS";
 	planetary_atmos = 1
 	},
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "kKM" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/firealarm{
@@ -47340,7 +47340,7 @@
 	initial_gas_mix = "ICEMOON_ATMOS";
 	planetary_atmos = 1
 	},
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "mpJ" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner,
 /obj/effect/turf_decal/trimline/blue/filled/corner{
@@ -50602,7 +50602,7 @@
 	initial_gas_mix = "ICEMOON_ATMOS";
 	planetary_atmos = 1
 	},
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "pLk" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/delivery/red,
@@ -51168,7 +51168,7 @@
 	initial_gas_mix = "ICEMOON_ATMOS";
 	planetary_atmos = 1
 	},
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "qld" = (
 /obj/effect/spawner/structure/window,
 /obj/structure/curtain/cloth/fancy/mechanical{
@@ -53803,7 +53803,7 @@
 	initial_gas_mix = "ICEMOON_ATMOS";
 	planetary_atmos = 1
 	},
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "tqo" = (
 /obj/machinery/cryopod{
 	dir = 1
@@ -54151,7 +54151,7 @@
 /area/hallway/primary/fore)
 "tFn" = (
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "tGE" = (
 /obj/structure/table,
 /obj/item/clothing/glasses/meson,
@@ -54327,7 +54327,7 @@
 	initial_gas_mix = "ICEMOON_ATMOS";
 	planetary_atmos = 1
 	},
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "tPr" = (
 /obj/effect/turf_decal/trimline/darkblue/filled/line{
 	dir = 1
@@ -54490,7 +54490,7 @@
 	initial_gas_mix = "ICEMOON_ATMOS";
 	planetary_atmos = 1
 	},
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "uar" = (
 /obj/machinery/button/door{
 	desc = "A remote control switch for the exit.";
@@ -54804,7 +54804,7 @@
 	initial_gas_mix = "ICEMOON_ATMOS";
 	planetary_atmos = 1
 	},
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "urb" = (
 /obj/structure/sign/warning/electricshock{
 	pixel_y = 32
@@ -55203,7 +55203,7 @@
 	initial_gas_mix = "ICEMOON_ATMOS";
 	planetary_atmos = 1
 	},
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "uSD" = (
 /obj/machinery/igniter/incinerator_toxmix,
 /turf/open/floor/engine/vacuum,
@@ -56784,7 +56784,7 @@
 	initial_gas_mix = "ICEMOON_ATMOS";
 	planetary_atmos = 1
 	},
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "wBO" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -58418,7 +58418,7 @@
 	initial_gas_mix = "ICEMOON_ATMOS";
 	planetary_atmos = 1
 	},
-/area/ruin/powered)
+/area/ruin/powered/nacht)
 "ygM" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{

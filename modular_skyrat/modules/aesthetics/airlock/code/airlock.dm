@@ -485,10 +485,6 @@
 	boltDown = 'sound/machines/boltsdown.ogg'
 	has_environment_lights = FALSE
 
-/obj/machinery/door/airlock/freezer/ancient/glass
-	opacity = FALSE
-	glass = TRUE
-
 /obj/machinery/door/airlock/science
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/station/science.dmi'
 
@@ -608,10 +604,6 @@
 	boltDown = 'sound/machines/boltsdown.ogg'
 	has_environment_lights = FALSE
 
-/obj/machinery/door/airlock/centcom/ancient/glass
-	opacity = FALSE
-	glass = TRUE
-
 /obj/machinery/door/airlock/grunge
 	icon = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/centcom/centcom.dmi'
 	overlays_file = 'modular_skyrat/modules/aesthetics/airlock/icons/airlocks/centcom/overlays.dmi'
@@ -626,10 +618,6 @@
 	boltUp = 'sound/machines/boltsup.ogg'
 	boltDown = 'sound/machines/boltsdown.ogg'
 	has_environment_lights = FALSE
-
-/obj/machinery/door/airlock/grunge/ancient/glass
-	opacity = FALSE
-	glass = TRUE
 
 //VAULT
 /obj/machinery/door/airlock/vault

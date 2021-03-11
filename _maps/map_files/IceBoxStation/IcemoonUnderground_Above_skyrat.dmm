@@ -863,10 +863,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/structure/closet/crate{
-	icon = 'icons/obj/crates.dmi'
-	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/ancient,
 /turf/open/floor/iron/dark{
 	icon = 'icons/turf/floors.dmi'
 	},
@@ -5566,12 +5564,10 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
 "yR" = (
-/obj/structure/closet/crate{
-	icon = 'icons/obj/crates.dmi'
-	},
 /obj/effect/spawner/lootdrop/maintenance/four,
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/ancient,
 /turf/open/floor/iron/dark{
 	icon = 'icons/turf/floors.dmi'
 	},
@@ -6756,15 +6752,14 @@
 /area/ruin/powered)
 "Fj" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/chair{
-	dir = 4;
-	icon = 'icons/obj/chairs.dmi'
-	},
 /obj/effect/turf_decal/tile/blue/darkblue{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/blue/darkblue{
 	dir = 8
+	},
+/obj/structure/chair/ancient{
+	dir = 4
 	},
 /turf/open/floor/iron/dark{
 	icon = 'icons/turf/floors.dmi'
@@ -7303,16 +7298,15 @@
 /area/science/xenobiology)
 "Ia" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/chair{
-	dir = 4;
-	icon = 'icons/obj/chairs.dmi'
-	},
 /obj/effect/turf_decal/tile/blue/darkblue,
 /obj/effect/turf_decal/tile/blue/darkblue{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/blue/darkblue{
 	dir = 8
+	},
+/obj/structure/chair/ancient{
+	dir = 4
 	},
 /turf/open/floor/iron/dark{
 	icon = 'icons/turf/floors.dmi'
@@ -7414,11 +7408,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/structure/closet/crate{
-	icon = 'icons/obj/crates.dmi'
-	},
 /obj/effect/spawner/lootdrop/maintenance/two,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/ancient,
 /turf/open/floor/iron/dark{
 	icon = 'icons/turf/floors.dmi'
 	},
@@ -8769,10 +8761,8 @@
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "Py" = (
-/obj/structure/chair{
-	icon = 'icons/obj/chairs.dmi'
-	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair/ancient,
 /turf/open/floor/iron{
 	icon = 'icons/turf/floors.dmi'
 	},
@@ -8846,10 +8836,8 @@
 /area/ruin/powered)
 "PW" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/structure/reagent_dispensers/watertank{
-	icon = 'icons/obj/chemical_tanks.dmi'
-	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/reagent_dispensers/watertank/ancient,
 /turf/open/floor/iron/dark{
 	icon = 'icons/turf/floors.dmi'
 	},
@@ -10327,10 +10315,8 @@
 /area/commons/fitness)
 "XL" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/structure/closet/crate{
-	icon = 'icons/obj/crates.dmi'
-	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/ancient,
 /turf/open/floor/iron/dark{
 	icon = 'icons/turf/floors.dmi'
 	},

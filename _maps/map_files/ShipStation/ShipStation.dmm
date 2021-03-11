@@ -6012,11 +6012,6 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/primary/central)
-"uo" = (
-/obj/structure/disposalpipe/segment,
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
-/area/commons/storage/primary)
 "up" = (
 /obj/structure/table/wood,
 /obj/item/gun/ballistic/shotgun/doublebarrel,
@@ -14555,11 +14550,6 @@
 	},
 /turf/open/floor/iron,
 /area/commons/dorms/barracks)
-"Zh" = (
-/obj/structure/disposalpipe/trunk,
-/obj/machinery/disposal/bin,
-/turf/open/floor/iron,
-/area/commons/storage/primary)
 "Zi" = (
 /obj/structure/reflector/single/anchored{
 	dir = 6
@@ -39077,8 +39067,8 @@ Zp
 Ol
 aJ
 nh
-Zh
-uo
+Ol
+yq
 WV
 ll
 WV

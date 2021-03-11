@@ -7132,7 +7132,9 @@
 /turf/open/floor/circuit,
 /area/ai_monitored/command/nuke_storage)
 "aBT" = (
-/obj/machinery/computer/bank_machine,
+/obj/machinery/computer/bank_machine{
+	dir = 4
+	},
 /obj/effect/turf_decal/bot_white,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1

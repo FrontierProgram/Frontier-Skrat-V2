@@ -6771,6 +6771,9 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
 "aAQ" = (
@@ -8283,6 +8286,9 @@
 /obj/structure/railing{
 	dir = 4
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/commons/storage/primary)
 "aFT" = (
@@ -8312,6 +8318,9 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/structure/railing{
 	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/commons/storage/primary)

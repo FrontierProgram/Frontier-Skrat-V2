@@ -80,3 +80,13 @@
 /obj/item/card/id/debug/bst
 	icon_state = "bluespacetech"
 	uses_overlays = FALSE
+
+/obj/item/card/id/cybersun
+	icon_state = "cybersun"
+
+/obj/item/card/id/cybersun/diplomat
+	name = "cybersun ID card"
+	id_type_name = "cybersun ID card"
+	desc = "An ID straight from cybersun industries."
+	icon_state = "cybersun"
+	assignment = "Cybersun Diplomat"

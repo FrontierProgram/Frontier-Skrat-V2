@@ -504,10 +504,6 @@
 	suffix = "donut"
 	name = "NT Long-Distance Bluespace Jumper"
 
-/datum/map_template/shuttle/whiteship/tram
-	suffix = "tram"
-	name = "NT Long-Distance Bluespace Freighter"
-
 /datum/map_template/shuttle/whiteship/delta
 	suffix = "delta"
 	name = "NT Frigate"

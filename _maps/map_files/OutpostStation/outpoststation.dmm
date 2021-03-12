@@ -31646,7 +31646,7 @@
 /turf/open/floor/plating,
 /area/service/chapel/main)
 "tao" = (
-/mob/living/simple_animal/hostile/carp/cayenne/lia,
+/mob/living/simple_animal/hostile/carp/lia,
 /obj/structure/bed/dogbed/lia,
 /turf/open/floor/wood,
 /area/command/heads_quarters/hos)

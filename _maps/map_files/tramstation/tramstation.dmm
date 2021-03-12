@@ -23816,12 +23816,8 @@
 /turf/open/floor/iron/dark,
 /area/science/xenobiology)
 "chU" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
-	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /turf/open/floor/circuit,
 /area/ai_monitored/command/nuke_storage)
 "cit" = (
@@ -24884,21 +24880,11 @@
 /turf/closed/wall,
 /area/security/prison/safe)
 "cIk" = (
-/obj/effect/turf_decal/bot_white/right,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/circuit,
 /area/ai_monitored/command/nuke_storage)
 "cIC" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
@@ -34541,6 +34527,12 @@
 	dir = 1
 	},
 /obj/effect/landmark/event_spawn,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
 /turf/open/floor/iron/dark,
 /area/ai_monitored/command/nuke_storage)
 "gOg" = (
@@ -37851,7 +37843,9 @@
 /turf/open/floor/plating/airless,
 /area/mine/explored)
 "iwk" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
 /turf/open/floor/circuit,
 /area/ai_monitored/command/nuke_storage)
 "iwB" = (
@@ -39503,12 +39497,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/science/research)
-"jmT" = (
-/obj/effect/turf_decal/trimline/neutral/filled/line{
-	dir = 9
-	},
-/turf/closed/wall/r_wall,
-/area/maintenance/radshelter/civil)
 "jng" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -40035,12 +40023,6 @@
 	},
 /turf/open/floor/plating/airless,
 /area/science/test_area)
-"jAf" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 5
-	},
-/turf/open/floor/circuit,
-/area/ai_monitored/command/nuke_storage)
 "jAl" = (
 /obj/machinery/mineral/stacking_machine{
 	input_dir = 1;
@@ -44385,10 +44367,6 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/main)
-"lAS" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/circuit,
-/area/ai_monitored/command/nuke_storage)
 "lAV" = (
 /obj/effect/turf_decal/trimline/yellow/warning,
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
@@ -50387,13 +50365,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/storage)
-"ozT" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
-	},
-/obj/structure/cable,
-/turf/open/floor/circuit,
-/area/ai_monitored/command/nuke_storage)
 "ozV" = (
 /obj/machinery/food_cart,
 /obj/effect/turf_decal/siding/thinplating/corner,
@@ -65426,10 +65397,8 @@
 /turf/open/floor/iron/white,
 /area/science/robotics/lab)
 "vpD" = (
-/obj/effect/decal/remains/human,
-/obj/item/storage/toolbox/mechanical/old{
-	desc = "Danger. Very robust. It is of normal quality.";
-	name = "rusty blue toolbox (norm)"
+/obj/effect/decal/remains/human{
+	desc = "They look like human remains. They have a strange aura about them... perhaps they ate without a table?"
 	},
 /turf/open/floor/plating/asteroid/airless,
 /area/mine/explored)
@@ -103222,7 +103191,7 @@ aae
 tmw
 tmw
 nJc
-cIk
+kkn
 fAU
 kkn
 tmw
@@ -103478,9 +103447,9 @@ aae
 aae
 tmw
 uxk
-lAS
+lCr
 iwk
-jAf
+lCr
 qdM
 tmw
 mmz
@@ -103993,8 +103962,8 @@ aae
 tmw
 nXS
 yiU
+cIk
 yiU
-ozT
 kcn
 tmw
 ndn
@@ -182930,7 +182899,7 @@ aae
 aae
 aae
 aae
-jmT
+oYl
 oYl
 oYl
 oYl
@@ -187271,7 +187240,7 @@ aYr
 aYr
 aYr
 aYr
-eMA
+aYr
 eMA
 aYr
 aYr

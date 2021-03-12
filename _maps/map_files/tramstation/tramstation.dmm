@@ -30270,9 +30270,6 @@
 	},
 /turf/open/floor/iron,
 /area/security/prison)
-"eXR" = (
-/turf/open/floor/iron/dark,
-/area/hallway/secondary/exit/departure_lounge)
 "eYk" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
@@ -65468,6 +65465,9 @@
 /obj/machinery/telecomms/bus/preset_two,
 /turf/open/floor/iron/dark/telecomms,
 /area/tcommsat/server)
+"vrE" = (
+/turf/open/floor/iron/dark,
+/area/hallway/secondary/exit/departure_lounge)
 "vrN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/grille,
@@ -186536,7 +186536,7 @@ aYr
 aBM
 qjT
 izq
-eXR
+vrE
 cIZ
 nnZ
 nXw

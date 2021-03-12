@@ -508,6 +508,10 @@
 	suffix = "delta"
 	name = "NT Frigate"
 
+/datum/map_template/shuttle/whiteship/outpost
+	suffix = "outpost"
+	name = "SciMed Transport Craft"
+
 /datum/map_template/shuttle/whiteship/pod
 	suffix = "whiteship_pod"
 	name = "Salvage Pod"

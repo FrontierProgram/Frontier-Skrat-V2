@@ -165,3 +165,9 @@
 	desc = "Sometimes you need to make some noise to make a point."
 	database_id = MEDAL_HOT_DAMN
 	icon = "hotdamn"
+
+/datum/award/achievement/misc/tram_surfer
+	name = "Tram Surfer"
+	desc = "Lights out, guerilla radio!"
+	database_id = MEDAL_TRAM_SURFER
+	icon = "tram_surfer"

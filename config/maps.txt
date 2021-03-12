@@ -34,13 +34,18 @@ map icebox
 	votable
 endmap
 
+map tramstation
+	minplayers 35
+	votable
+endmap
+
 map runtimestation
 endmap
 
 map multiz_debug
 endmap
 
-##SKYRAT MAPS##
+##FRONTIER MAPS##
 
 map omegastation
 	maxplayers 25

@@ -31547,6 +31547,12 @@
 /obj/structure/closet/crate/goldcrate,
 /turf/open/floor/iron/dark,
 /area/ai_monitored/command/nuke_storage)
+"fAV" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/aisat_interior)
 "fBd" = (
 /obj/machinery/status_display/evac,
 /turf/closed/wall,
@@ -115768,7 +115774,7 @@ ucf
 pDk
 pDk
 pDk
-miQ
+fAV
 cRL
 eYL
 eYL
